@@ -1,14 +1,321 @@
 /* HIER KOMT JOUW CSS */
-@font-face {
-  font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
-  font-weight: 400;
-  font-style: normal;
-}
 
 body {
-  font-family: "Comic Relief", system-ui;
-  background-color: Canvas;
-  color: CanvasText;
-  color-scheme: light dark;
+  margin: 0;
+  background-color: #e8e7e3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
+
+.trap {
+  position:relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+.trap span {
+  position: absolute;
+  font-family: "bebas-neue-pro", sans-serif;
+  transition: color 0.3s ease;
+}
+
+
+.trap span.alt-font {
+  font-family: "montserrat", sans-serif;
+}
+
+.trap a {
+  color: inherit;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.trap span {
+  position: absolute;
+  font-family: "bebas-neue-pro", sans-serif;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.h {
+  transform:translate(0,-50%);
+}
+
+.v {
+  transform:translate(-50%,0) rotate(270deg);
+}
+
+/*traptreden h1*/
+.gezondheid {
+  left:4%;
+  top:80%; 
+  font-size:5vW; 
+  font-weight: 600;
+  color:black;
+}
+
+.gezondheid:hover {
+  color: #ff0000;
+  transform: translate(0, -50%) scale(1.03);
+}
+
+.groene-appels {
+  left:10%;
+  top:86%; 
+  font-size:1.4vW;
+  color:rgb(61, 60, 60);
+  font: weight 400px;
+}
+
+.groene-appels:hover {
+  color: #ff0000;
+}
+
+.water {
+  left:10%;
+  top:76%;
+  font-size:1.4vW; 
+  color:rgb(61, 58, 58);
+}
+
+.water:hover {
+  color: #ff0000;
+}
+
+/*traptreden v1*/
+.ei {
+  left:26%;
+  top:74%;
+  font-size:1.4vW;
+  color:black;
+}
+
+.ei:hover {
+  color: #ff0000;
+}
+
+.kwark {
+  left:23.5%;
+  top:75%;
+  font-size:2.8vW;
+  color:rgb(37, 35, 35);
+
+}
+
+.kwark:hover {
+  color: #ff0000;
+}
+.spa {
+  left:24.5%;
+  top:67%;
+  font-size:1.8vW;
+  color:black;
+}
+
+.spa:hover {
+  color: #ff0000;
+}
+
+/*traptreden h2*/
+.sporten{
+  left:25%;
+  top:62%;
+  font-size:4.8vW; 
+  font-weight: 600;
+  color:black;
+}
+
+.sporten:hover {
+  color: #ff0000;
+  transform: translate(0, -50%) scale(1.03);
+}
+
+.hardlopen{
+  left:32%;
+  top:68%;
+  font-size:2vW; 
+  color:black;
+}
+
+.hardlopen:hover {
+  color: #ff0000;
+}
+
+.racefietsen{
+  left:36.7%;
+  top:62%;
+  font-size:1.8vW; 
+  color:black;
+}
+
+.racefietsen:hover {
+  color: #ff0000;
+} 
+
+/*traptreden v2*/
+.gym{
+  left:44%;
+  top:62%;
+  font-size:1.4vW; 
+  color:black;
+}
+
+.gym:hover {
+  color: #ff0000;
+}
+
+.padel{
+  left:46.5%;
+  top:53%;
+  font-size:1.4vW; 
+  color:black;
+}
+
+.padel:hover {
+  color: #ff0000;
+}
+
+.hockey{
+  left:44.5%;
+  top:50%;
+  font-size:3vW; 
+  color:black;
+}
+
+.hockey:hover {
+  color: #ff0000;
+}
+
+.focus {
+ left: 47%;
+ top: 44%;
+ font-size: 5.1vW;
+ font-weight: 600;
+ color: black;
+}
+
+.focus:hover {
+  color: #ff0000;
+  transform: translate(0, -50%) scale(1.03);
+}
+
+.leergierig {
+  left: 56%;
+  top: 43%;
+  font-size: 1.4vW;
+  color: black;
+}
+
+.leergierig:hover {
+  color: #ff0000;
+}
+
+.scherp{
+  left: 51%;
+  top: 40%;
+  font-size: 1.1vW;
+  color: black;
+}
+
+.scherp:hover {
+  color: #ff0000;
+}
+
+.discipline {
+  left: 55%;
+  top: 50%;
+  font-size: 2.1vW;
+  color: black;
+}
+
+.discipline:hover {
+  color: #ff0000;
+}
+
+.aardig {
+  left: 64%;
+  top: 36%;
+  font-size: 1.1vW;
+  color: black;
+}
+
+.aardig:hover {
+  color: #ff0000;
+}
+
+.eerlijk {
+  left: 63%;
+  top: 26%;
+  font-size: 2.2vW;
+  color: black;
+}
+
+.eerlijk:hover {
+  color: #ff0000;
+}
+
+.creatief {
+  left: 62%;
+  top: 38%;
+  font-size: 3.1vW;
+  color: black;
+}
+
+.creatief:hover {
+  color: #ff0000;
+}
+
+.Wessel-de-Wit {
+  left: 65%;
+  top: 20%;
+  font-size: 7vW;
+  color: black;
+  font-style: italic;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+  text-shadow: 0.3 ease
+}
+
+.Wessel-de-Wit:hover {
+  transform: translate(0, -50%) scale(1.03);
+  color: #ff0000;
+}
+
+.Amsterdam{
+  left: 86%;
+  top: 28%;
+  font-size: 2.1vW;
+  color: black;
+}
+
+.Amsterdam:hover {
+  color: #ff0000;
+}
+
+.Heiloo {
+  left: 76%;
+  top: 14%;
+  font-size: 1.3vW;
+  color: black;
+}
+
+.Heiloo:hover {
+  color: #ff0000;
+}
+
+.Jan-Wessel-Cornelis{
+  left: 70.3%;
+  top: 28%;
+  font-size: 1.4vW;
+  color: black;  
+}
+
+.Jan-Wessel-Cornelis:hover {
+  color: #ff0000;
+}
+
