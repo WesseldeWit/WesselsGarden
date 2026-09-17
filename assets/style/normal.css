@@ -1,5 +1,11 @@
 /* HIER KOMT JOUW CSS */
 
+html {
+  --text-color: black;
+}
+
+
+
 body {
   margin: 0;
   background-color: #e8e7e3;
@@ -18,12 +24,6 @@ body {
   overflow: hidden;
 }
 
-.trap span {
-  position: absolute;
-  font-family: "bebas-neue-pro", sans-serif;
-  transition: color 0.3s ease;
-}
-
 
 .trap span.alt-font {
   font-family: "montserrat", sans-serif;
@@ -38,7 +38,7 @@ body {
 
 .trap span {
   position: absolute;
-  font-family: "bebas-neue-pro", sans-serif;
+  font-family: "bebas-neue", sans-serif;
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
@@ -56,7 +56,7 @@ body {
   top:80%; 
   font-size:5vW; 
   font-weight: 600;
-  color:black;
+  color: var(--text-color);
 }
 
 .gezondheid:hover {
@@ -68,7 +68,7 @@ body {
   left:10%;
   top:86%; 
   font-size:1.4vW;
-  color:rgb(61, 60, 60);
+  color: var(--text-color);
   font: weight 400px;
 }
 
@@ -80,7 +80,7 @@ body {
   left:10%;
   top:76%;
   font-size:1.4vW; 
-  color:rgb(61, 58, 58);
+  color: var(--text-color);
 }
 
 .water:hover {
@@ -92,7 +92,7 @@ body {
   left:26%;
   top:74%;
   font-size:1.4vW;
-  color:black;
+  color: var(--text-color);
 }
 
 .ei:hover {
@@ -103,7 +103,7 @@ body {
   left:23.5%;
   top:75%;
   font-size:2.8vW;
-  color:rgb(37, 35, 35);
+  color: var(--text-color);
 
 }
 
@@ -114,7 +114,7 @@ body {
   left:24.5%;
   top:67%;
   font-size:1.8vW;
-  color:black;
+  color: var(--text-color);
 }
 
 .spa:hover {
@@ -127,7 +127,7 @@ body {
   top:62%;
   font-size:4.8vW; 
   font-weight: 600;
-  color:black;
+  color: var(--text-color);
 }
 
 .sporten:hover {
@@ -139,7 +139,7 @@ body {
   left:32%;
   top:68%;
   font-size:2vW; 
-  color:black;
+  color: var(--text-color);
 }
 
 .hardlopen:hover {
@@ -150,7 +150,7 @@ body {
   left:36.7%;
   top:62%;
   font-size:1.8vW; 
-  color:black;
+  color: var(--text-color);
 }
 
 .racefietsen:hover {
@@ -162,7 +162,7 @@ body {
   left:44%;
   top:62%;
   font-size:1.4vW; 
-  color:black;
+  color: var(--text-color);
 }
 
 .gym:hover {
@@ -173,7 +173,7 @@ body {
   left:46.5%;
   top:53%;
   font-size:1.4vW; 
-  color:black;
+  color: var(--text-color);
 }
 
 .padel:hover {
@@ -184,7 +184,7 @@ body {
   left:44.5%;
   top:50%;
   font-size:3vW; 
-  color:black;
+  color: var(--text-color);
 }
 
 .hockey:hover {
@@ -196,7 +196,7 @@ body {
  top: 44%;
  font-size: 5.1vW;
  font-weight: 600;
- color: black;
+ color: var(--text-color);
 }
 
 .focus:hover {
@@ -208,7 +208,7 @@ body {
   left: 56%;
   top: 43%;
   font-size: 1.4vW;
-  color: black;
+  color: var(--text-color);
 }
 
 .leergierig:hover {
@@ -219,7 +219,7 @@ body {
   left: 51%;
   top: 40%;
   font-size: 1.1vW;
-  color: black;
+  color: var(--text-color);
 }
 
 .scherp:hover {
@@ -230,7 +230,7 @@ body {
   left: 55%;
   top: 50%;
   font-size: 2.1vW;
-  color: black;
+  color: var(--text-color);
 }
 
 .discipline:hover {
@@ -241,7 +241,7 @@ body {
   left: 64%;
   top: 36%;
   font-size: 1.1vW;
-  color: black;
+  color: var(--text-color);
 }
 
 .aardig:hover {
@@ -252,7 +252,7 @@ body {
   left: 63%;
   top: 26%;
   font-size: 2.2vW;
-  color: black;
+  color: var(--text-color);
 }
 
 .eerlijk:hover {
@@ -263,7 +263,7 @@ body {
   left: 62%;
   top: 38%;
   font-size: 3.1vW;
-  color: black;
+  color: var(--text-color);
 }
 
 .creatief:hover {
@@ -274,11 +274,10 @@ body {
   left: 65%;
   top: 20%;
   font-size: 7vW;
-  color: black;
+  color: var(--text-color);
   font-style: italic;
   font-weight: 600;
   transition: transform 0.3s ease;
-  text-shadow: 0.3 ease
 }
 
 .Wessel-de-Wit:hover {
@@ -290,7 +289,7 @@ body {
   left: 86%;
   top: 28%;
   font-size: 2.1vW;
-  color: black;
+  color: var(--text-color);
 }
 
 .Amsterdam:hover {
@@ -301,7 +300,7 @@ body {
   left: 76%;
   top: 14%;
   font-size: 1.3vW;
-  color: black;
+  color: var(--text-color);
 }
 
 .Heiloo:hover {
@@ -312,7 +311,7 @@ body {
   left: 70.3%;
   top: 28%;
   font-size: 1.4vW;
-  color: black;  
+  color: var(--text-color);  
 }
 
 .Jan-Wessel-Cornelis:hover {
