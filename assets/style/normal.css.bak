@@ -85,7 +85,7 @@ body {
 }
 
 .gezondheid:hover {
-  color: #2979ff;
+  color: #161d74;
   transform: translate(0, -50%) scale(1.03);
 }
 
@@ -98,7 +98,7 @@ body {
 }
 
 .groene-appels:hover {
-  color: #2979ff;
+  color: #162d74;
 }
 
 .water {
@@ -109,7 +109,7 @@ body {
 }
 
 .water:hover {
-  color: #2979ff;
+  color: #1b1674;
 }
 
 /*traptreden v1*/
@@ -121,7 +121,7 @@ body {
 }
 
 .ei:hover {
-  color: #2979ff;
+  color: #201674;
 }
 
 .kwark {
@@ -133,7 +133,7 @@ body {
 }
 
 .kwark:hover {
-  color: #2979ff;
+  color: #1e1674;
 }
 .spa {
   left:24.5%;
@@ -143,7 +143,7 @@ body {
 }
 
 .spa:hover {
-  color: #2979ff;
+  color: #341674;
 }
 
 /*traptreden h2*/
@@ -157,7 +157,7 @@ body {
 }
 
 .sporten:hover {
-  color: #2979ff;
+  color: #421674;
   transform: translate(0, -50%) scale(1.03);
 }
 
@@ -169,7 +169,7 @@ body {
 }
 
 .hardlopen:hover {
-  color: #2979ff;
+  color: #311674;
 }
 
 .racefietsen{
@@ -180,7 +180,7 @@ body {
 }
 
 .racefietsen:hover {
-  color: #2979ff;
+  color: #421674;
 } 
 
 /*traptreden v2*/
@@ -192,7 +192,7 @@ body {
 }
 
 .gym:hover {
-   color: #2979ff;
+   color: #421674;
 }
 
 .padel{
@@ -203,7 +203,7 @@ body {
 }
 
 .padel:hover {
-  color: #2979ff;
+  color: #5c1674;
 }
 
 .hockey{
@@ -214,7 +214,7 @@ body {
 }
 
 .hockey:hover {
-  color: #2979ff;
+  color: #641674;
 }
 
 .focus {
@@ -227,7 +227,7 @@ body {
 }
 
 .focus:hover {
-  color: #2979ff;
+  color: #741672;
   transform: translate(0, -50%) scale(1.03);
 }
 
@@ -239,7 +239,7 @@ body {
 }
 
 .leergierig:hover {
-  color: #2979ff;
+  color: #741670;
 }
 
 .scherp{
@@ -250,7 +250,7 @@ body {
 }
 
 .scherp:hover {
-  color: #2979ff;
+  color: #741667;
 }
 
 .discipline {
@@ -261,7 +261,7 @@ body {
 }
 
 .discipline:hover {
-  color: #2979ff;
+  color: #641674;
 }
 
 .aardig {
@@ -272,7 +272,7 @@ body {
 }
 
 .aardig:hover {
-  color: #2979ff;
+  color: #74165c;
 }
 
 .eerlijk {
@@ -283,7 +283,7 @@ body {
 }
 
 .eerlijk:hover {
-  color: #2979ff;
+  color: #741640;
 }
 
 .creatief {
@@ -294,7 +294,7 @@ body {
 }
 
 .creatief:hover {
-  color: #2979ff;
+  color: #741661;
 }
 
 .Wessel-de-Wit {
@@ -310,7 +310,7 @@ body {
 
 .Wessel-de-Wit:hover {
   transform: translate(0, -50%) scale(1.03);
-  color: #2979ff; 
+  color: #74162f; 
 }
 
 .Amsterdam{
@@ -321,7 +321,7 @@ body {
 }
 
 .Amsterdam:hover {
-   color: #2979ff; 
+   color: #741645; 
 }
 
 .Heiloo {
@@ -332,7 +332,7 @@ body {
 }
 
 .Heiloo:hover {
-  color: #2979ff;
+  color: #74161e;
 }
 
 .Jan-Wessel-Cornelis{
@@ -343,17 +343,17 @@ body {
 }
 
 .Jan-Wessel-Cornelis:hover {
-   color: #2979ff;
+   color: #741645;
 }
 
 
-.darklightknop-input {
+.theme-toggle-input {
   position: absolute;
   opacity: 0;
   pointer-events: none;
 }
 
-.darklightknop {
+.theme-toggle-label {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -369,15 +369,15 @@ body {
   display: none;
 }
 
-body:has(#darklightknop:checked) .mode-light {
+body:has(#theme-toggle:checked) .mode-light {
   display: none;
 }
 
-body:has(#darklightknop:checked) .mode-dark {
+body:has(#theme-toggle:checked) .mode-dark {
   display: inline;
 }
 
-body:has(#darklightknop:checked) {
+body:has(#theme-toggle:checked) {
   --text-color: white;
   --background-color: black;
   background-image: url("/achtergond-dark.png");
