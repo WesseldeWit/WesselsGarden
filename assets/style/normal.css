@@ -359,29 +359,8 @@ body {
   outline-offset: 3px;
 }
 
-.logowessel {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 10;
-  width: 75px;
-  height: auto;
-}
-
 .mode-dark {
   display: none;
-}
-
-.logowessel-wit {
-  display: none;
-}
-
-body:has(#darklightknop:checked) .logowessel-zwart {
-  display: none;
-}
-
-body:has(#darklightknop:checked) .logowessel-wit {
-  display: inline;
 }
 
 body:has(#darklightknop:checked) .mode-light {
