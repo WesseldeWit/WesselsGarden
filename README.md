@@ -180,13 +180,6 @@ Bij het coderen ben ik in eerste instantie begonnen met hetgeen ik al wist van v
 
 Ik had ook nog feedback gekregen van een studiegenoot. Die zei namelijk dat de lay-out heel gaaf is, maar dat de trap er niet meer helemaal mooi uitziet wanneer je het op je telefoon bekijkt. Daardoor is het niet meer leesbaar. Ook zei diegene dat er misschien iets meer kleur toegevoegd moet worden. 
 
-Responsive (achteraf ingevuld)
-
-Wanneer mijn site lelijk wordt en wat ik eraan deed:
-Responsive voorbeeld 1 (link), wat werkt en waarom:
-Responsive voorbeeld 2 (link), wat werkt en waarom:
-Responsive voorbeeld 3 (link), wat werkt en waarom:
-
 #### Wo: Workshop 5
 
 1. Noem 3 Gestalt- of Design principes op en laat de ander uitleggen wat ze betekenen en doen.
@@ -215,11 +208,12 @@ Desktop-schets op een grid (foto + één zin):
 #### Retrospect 1
 
 Piek- en daltekening (foto):
-Metafoor met titel:
-Oriënteren en begrijpen:
-Verbeelden en conceptualiseren:
-Prototypen en uitwerken:
-Evalueren:
+![piek- en daltekening retrospect sprint 1](assets/img/retrospect-sprint1-tekening.jpg)
+Metafoor met titel: Ontspoord op de top
+
+Evalueren: na de hand snapte ik de opdracht dus toch niet helemaal. Ik moest iets maken over mezelf, maar het moest er ook persoonlijk uitzien, zodat je echt kon zien dat het bij mij paste. Dus dat heb ik eigenlijk gedaan. Ik had wel dingen bedacht die bij me passen, maar het waren losse woorden en je zag niet echt dat het om mij ging. Dus dat moest ik veranderen.
+
+Daarnaast was de manier van coderen niet goed; dat was de manier van vorig jaar, dus ik moest dat helemaal aanpassen. Ik had die tekening zo gemaakt omdat ik dacht dat ik op het goede spoor zat, maar na wat feedback moest ik weer helemaal opnieuw beginnen. 
 
 ### Sprint 2 - Compliance
 
@@ -425,7 +419,13 @@ Antwoord: ik vind het kleurcontrast misschien wel het lastigst, want ik ben zelf
 
 #### Vr: Voortgang + Retrospect
 
-Uitleg bij de tekening:
+Piek- en daltekening (foto):
+![piek- en daltekening retrospect sprint 2](assets/img/retrospect-sprint2-tekening.jpg)
+Metafoor met titel:
+
+Uitleg bij de tekening: in de tekening zie je mijn voortgang van die sprint qua ideeën. Ik had natuurlijk eerst een aantal ideeën, maar dat was niet goed. Dus toen moest ik het op een andere manier doen. Ik was daar vooral mee bezig: bedenken hoe ik dan wel een site kon maken die gebaseerd is op wat ik allemaal leuk vind en wat bij mij past.
+
+Toen kwam ik eerst op het sportgedeelte, maar ik vond het nog een beetje saai en wilde nog een andere kant van mezelf laten zien. Ik heb ook een aantal schilderijen gemaakt, dus daarmee kon ik ook mijn creatieve kant laten zien. 
 
 **Oriënteren en begrijpen**
 
