@@ -286,7 +286,7 @@ Antwoord:  Fomo, Social Proof, Fake Discounting
 
 3. Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
 
-Antwoord: Dat het etisch verantwoord is. Je kan niet bepaalde dingen doen, zoals bepaalde informatie automatisch akkoord geven. 
+Antwoord: Dat het etisch verantwoord is. Je kan niet bepaalde dingen doen, zoals bepaalde informatie automatisch akkoord geven. Niet dat geen vooraf aangevinkte vakjes die leesbaar zijn voor het toetsenbord ook kunnen weigeren. 
 
 #### Dark-pattern-herontwerp
 
@@ -327,7 +327,7 @@ Ik heb maar twee formaten gedaan, omdat ik het gebaseerd heb op een telefoonsche
 
 ![W3C-validatie index](assets/img/validatie-index.jpg)
 
-Op mijn website zijn geen waarschuwingen of fouten te zien. 
+Ik heb niet alleen mijn homepagina op de foto gevalideerd, maar ook alle andere HTML-bestanden in de HTML-checker gecontroleerd. Daarbij kwam geen enkele foutmelding naar voren. 
 
 
 1. Wat is HTML validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?
@@ -360,31 +360,68 @@ Vergelijking, wat was lastiger en waarom: ik vond de voice-over een stuk lastige
 
 1. Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
 
-Antwoord:
+Antwoord:  dat betekent dat het belangrijker is dat het goed bruikbaar is voor de gebruiker dan dat het, zeg maar, code-wise helemaal klopt. 
 
 2. Wat voor type beperkingen hebben invloed op het gebruiken van websites?
 
-Antwoord: 
+Antwoord: je moet hierbij denken aan mensen die blind of doof zijn of niet zo goed kunnen lezen. Je moet ook bedenken dat er mensen zijn die geen handen hebben of hun arm hebben gebroken. Dus die moeten ook de website kunnen besturen. Het moet dus allemaal makkelijk zijn voor mensen met een beperking. 
 
 3. Noem drie manieren om door een website te navigeren met jouw screenreader.
 
-Antwoord:
+Antwoord: je kan door de koppen heen, dus bijvoorbeeld vanaf de belangrijkste koppen H1 en H2, of via de links. Dan ga je alleen de links door, of je doet het via de headernavigatie, main of footer.
 
 Bi-weekly geek 2 (Het web en de wet), wat nam ik mee:
 
 #### Wo: User testing en A11Y
 
+#### Drie toegankelijkheidstests
+
+Test 1, screenreader
+Kopstructuur logisch: Ja, de kopstructuur is logisch. Je ziet namelijk alle pagina's in het menu zie je staan. 
+Alle interactieve elementen te vinden: ja, alles is goed te vinden. Alle elementen en links zeggen precies waar ze heen gaan. Ik liep eigenlijk nergens tegenaan. 
+Screenshot: 
+![VoiceOver rotor met links](assets/img/voiceover-links.jpg)
+![VoiceOver rotor met oriëntatiepunten](assets/img/voiceover-landmarks.jpg)
+![VoiceOver rotor met formulierregelaars](assets/img/voiceover-formulierregelaars.jpg)
+
+Test 2, alleen toetsenbord
+Alles bereikbaar: In principe is alles wat een knop is bereikbaar, behalve de dark- en lightmode knop, die is niet via Tap bereikbaar. De volgorde is goed: het gaat van boven naar beneden, van links naar rechts. Links bovenin staat 'terug naar inhoud'. Als je daarop klikt, ga je gelijk vanuit de menubalk naar de inhoud. 
+
+Test 3, WCAG-checklist:
+
+Contrast gecontroleerd met:
+
+Controle 1, hoofdtekst light ( #1a1a1a op #f4f1ea): ratio 15,42, voldoet wel
+
+Controle 2, hoofdtekst light ( #f4f1ea op #2e2e38): rato 11,9, voldoet wel
+
+Controle 3, gele terriers ( #c4930d op #f4f1ea): ratio 2,47, voldoet niet
+
+Er zijn een aantal dingen die ik heb gecheckt. Ik heb de hoofdtekst gecheckt op de achtergrondkleur. Die voldeed zeker bij de light mode. Dat heb ik ook gedaan bij de dark mode.
+
+Daarnaast was ik ook benieuwd naar een kleur waar ik een beetje over twijfelde bij de sportpagina, die van hockey. Die kwam er niet doorheen. Ja, het ding is alleen: ik wil wel graag die kleur geel gebruiken, omdat dat bij Terriers past. 
+
+Ik heb daarna wat onderzoek gedaan en de gele kleur komt bijna nooit boven een ratio van 4,5 op een crème/witte achtergrond. Dus ja, dan accepteer ik dat dat niet goed is. 
+
+
+Screenshot:
+![contrast hoofdtekst light](assets/img/contrast-hoofdtekst-light.png)
+![contrast hoofdtekst dark](assets/img/contrast-hoofdtekst-dark.png)
+![contrast gele sportkleur light](assets/img/contrast-geel-light.png)
+
 1. Waar staat WCAG en A11y voor?
 
-Antwoord:
+Antwoord: de eerste staat voor Web Content Accessibility Guidelines. Dat houdt in wat de standaarden zijn die internationaal worden gebruikt voor de toegankelijkheid van websites. Soort wetboek voor webdesigners en developers.
+
+En de tweede, A11y, dit gaat over toegankelijkheid, accessibility. Het is een soort afkorting daarvan. Term in webdesign wereld. 
 
 2. Wat vind je lastiger, je laptop/websites alleen met een toetsenbord bedienen of met een screenreader? Waarom? Waar moet je nog mee oefenen?
-
-Antwoord:
+ 
+Antwoord: ik vind het makkelijker om via toetsenbordnavigatie door de pagina heen te gaan. Daar haal ik meer uit dan wanneer ik de HTML van een pagina zie. 
 
 3. Met welke beperking rekening houden vind je het meest lastig? Vind je dat je beperkt wordt in wat je kunt ontwerpen? Of heb je al manieren gevonden om vanuit een solide basis - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
 
-Antwoord:
+Antwoord: ik vind het kleurcontrast misschien wel het lastigst, want ik ben zelf natuurlijk niet kleurenblind. Er zijn natuurlijk mensen die bijvoorbeeld het verschil tussen gele accenten en wit niet zien, waardoor het voor hen niet leesbaar is. Je probeert natuurlijk wel een website voor iedereen te maken. 
 
 #### Vr: Voortgang + Retrospect
 
