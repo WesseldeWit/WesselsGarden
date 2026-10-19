@@ -1,0 +1,819 @@
+
+/* MARK: fonts
+*/
+
+@font-face {
+  font-family: "bebas-neue";
+  src: url("../type/BebasNeue-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("../type/Oswald-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "space-grotesk";
+  src: url("../type/SpaceGrotesk-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MARK: kleuren
+*/
+
+html {
+
+  color-scheme: light;
+
+  --zwart: #1a1a1a;
+  --creme: #f4f1ea;
+  --blauw: #1a5fd6;
+  --groen: #34743e;
+  --geel: #f5c518;
+
+  --baksteen: #a2523a;
+  --gymblauw: #2f5d8a;
+
+  --brouwersgracht: #2b2b2b;
+  --voorgevel: #7b5b45;
+  --achtergevel: #56677a;
+  --madame: #2d6cb3;
+
+  --text-color: light-dark(var(--zwart), var(--creme));
+  --background-color: light-dark(var(--creme), #2e2e38);
+  --link-hover: light-dark(var(--blauw), #6f9fff);
+  --waas: light-dark(rgba(244, 241, 234, 0.6), rgba(18, 18, 26, 0.72));
+  --lamp-gloed: light-dark(rgba(255, 193, 7, 0.7), rgba(41, 121, 255, 0.6));
+  --koekje-gloed: rgba(139, 94, 52, 0.7);
+
+  --marge: clamp(1.25rem, 18vw, 16.25rem);
+}
+
+html:has(header input:checked) {
+  color-scheme: dark;
+}
+
+html:has(dialog:open) {
+  overflow-y: clip;
+}
+
+html:has(header input:checked) header ul img,
+html:has(header input:checked) header nav > a img,
+html:has(header input:checked) main > h1 img {
+  filter: invert(1);
+}
+
+
+/* MARK: algemeen
+*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "oswald", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+main {
+  padding: 0 var(--marge);
+}
+
+/* MARK: menubalk
+*/
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6.2rem;
+  padding: 0 clamp(0.75rem, 6vw, 6rem);
+}
+
+header nav > a img {
+  display: block;
+  height: 3.5rem;
+}
+
+header ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+
+  @media (width > 48em) {
+    gap: 3rem;
+  }
+}
+
+header ul a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+header ul img {
+  display: block;
+  height: 2.5rem;
+  width: auto;
+  transition: transform 0.25s;
+
+  @media (width > 48em) {
+    height: 3.5rem;
+  }
+}
+
+header ul a:hover img,
+header ul a:focus-visible img {
+  transform: scale(1.1);
+}
+
+header ul a[aria-current] {
+  display: block;
+  padding-bottom: 0.25rem;
+  border-bottom: 3px solid var(--text-color);
+}
+
+/* MARK: lantaarpaal
+*/
+
+header label {
+  position: fixed;
+  top: 22%;
+  right: 0;
+  z-index: 20;
+  cursor: pointer;
+}
+
+header label input {
+  position: absolute;
+  opacity: 0;
+}
+
+header label img {
+  display: block;
+  height: clamp(3rem, 16vw, 12rem);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+header label img:last-of-type {
+  display: none;
+}
+
+header label:has(input:checked) img:first-of-type {
+  display: none;
+}
+
+header label:has(input:checked) img:last-of-type {
+  display: block;
+}
+
+header label:hover img {
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 0.75rem var(--lamp-gloed));
+}
+
+/* MARK: footer
+*/
+
+footer {
+  height: 6.2rem;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  font-family: "space-grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+footer p,
+footer label {
+  color: var(--text-color);
+  opacity: 0.65;
+  transition: opacity 0.2s ease;
+}
+
+footer label:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+footer label {
+  cursor: pointer;
+}
+
+body:has(footer input:checked) main,
+body:has(footer input:checked) .rat {
+  animation: none;
+}
+
+/* MARK: homepagina
+*/
+
+.naam-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 var(--marge);
+  padding: 2rem;
+  background-image: linear-gradient(var(--waas), var(--waas)), url("../img/brouwersgracht.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  animation: achtergrond-pan 45s ease-in-out infinite alternate;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes achtergrond-pan {
+  from {
+    background-position: center bottom;
+  }
+  to {
+    background-position: center top;
+  }
+}
+
+main > h1 {
+  width: 100%;
+  max-width: 40rem;
+}
+
+main > h1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+main > h1 button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+main > h1 button:hover {
+  transform: scale(1.02);
+}
+
+/* MARK: schestjes 
+*/
+
+.schets-paaltje {
+  display: none;
+  position: fixed;
+  left: 1.5rem;
+  bottom: 6.5rem;
+  z-index: 15;
+
+  height: 12vw;
+
+  @media (width > 64em) {
+    display: block;
+  }
+}
+
+.schets-peuk {
+  display: none;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 6.5rem;
+  z-index: 15;
+
+  width: 10vw;
+
+  @media (width > 64em) {
+    display: block;
+  }
+}
+
+/* MARK: cookie
+*/
+
+.cookie-knop {
+  position: fixed;
+  left: 1rem;
+  bottom: 6.5rem;
+  z-index: 20;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transform: rotate(-65deg);
+
+  @media (width > 64em) {
+    left: 15.2rem;
+    bottom: 0.7rem;
+  }
+}
+
+.cookie-knop img {
+  display: block;
+  height: clamp(2.75rem, 10vw, 4rem);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.cookie-knop:hover img {
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 0.75rem var(--koekje-gloed));
+}
+
+/* MARK: rennende rat 
+*/
+
+.rat {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  height: 5rem;
+  transform: rotate(12deg);
+
+  @media (width > 64em) {
+    display: block;
+    animation: rat-loopt 40s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes rat-loopt {
+  0%,
+  70% {
+    left: 0;
+  }
+  78%,
+  100% {
+    left: 110vw;
+  }
+}
+
+/* MARK: pop ups
+*/
+
+dialog {
+  width: 94%;
+  max-width: 45rem;
+  max-height: 94vh;
+  margin: auto;
+  padding: 1rem;
+  border: none;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  box-shadow: 0 1.25rem 3rem rgba(0, 0, 0, 0.25);
+
+  @media (width > 48em) {
+    width: 90%;
+    padding: 2rem;
+  }
+}
+
+dialog::backdrop {
+  background-color: rgba(26, 26, 26, 0.55);
+}
+
+dialog h2 {
+  font-family: "bebas-neue", sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+dialog p {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+dialog form button {
+  font-family: "space-grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: var(--blauw);
+  color: var(--creme);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+dialog form button:hover {
+  transform: scale(1.03);
+}
+
+/* MARK: cookie pop-up
+*/
+
+#cookie-popup {
+  max-width: 35rem;
+
+  @media (width > 48em) {
+    padding: 2.5rem;
+  }
+}
+
+#cookie-popup p {
+  margin-bottom: 1rem;
+}
+
+#cookie-popup section {
+  border-left: 3px solid var(--link-hover);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#cookie-popup h3 {
+  font-family: "space-grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: var(--link-hover);
+  margin-bottom: 0.75rem;
+}
+
+#cookie-popup ul {
+  padding-left: 1.2rem;
+}
+
+#cookie-popup li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+  /* MARK: sportkeuzepagina
+  */
+
+main > section {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+main > section h1 {
+  font-family: "bebas-neue", sans-serif;
+  font-size: 4.2rem;
+  margin-bottom: 0.5rem;
+}
+
+main > section > p {
+  margin-bottom: 2rem;
+}
+
+main > section > ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  list-style: none;
+
+  @media (width > 48em) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+main > section > ul > li {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  color: var(--creme);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+main > section > ul > li a {
+  display: grid;
+  height: 100%;
+  min-height: 17.5rem;
+  color: inherit;
+  text-decoration: none;
+
+  @media (width > 64em) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+main > section > ul > li div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main > section > ul > li:hover {
+  transform: translateY(-0.4rem);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.kaart-hockey {
+  background-color: #c4930d;
+  color: var(--zwart);
+}
+
+.kaart-hardlopen {
+  background-color: var(--baksteen);
+}
+
+.kaart-gym {
+  background-color: var(--gymblauw);
+}
+
+.kaart-golf {
+  background-color: var(--groen);
+}
+
+main > section > ul > li h2 {
+  padding: 1.75rem 1.75rem 0.5rem;
+  font-family: "bebas-neue", sans-serif;
+  font-size: 2.2rem;
+
+  @media (width > 64em) {
+    padding-top: 0;
+  }
+}
+
+main > section > ul > li p {
+  padding: 0 1.75rem 0.5rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+main > section > ul > li .lees-meer {
+  padding: 0 1.75rem 1.75rem;
+  font-family: "space-grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: normal;
+  letter-spacing: 0.1em;
+
+  @media (width > 64em) {
+    padding-bottom: 0;
+  }
+}
+
+main > section > ul > li:has(a:focus-visible) {
+  outline: 3px solid var(--link-hover);
+  outline-offset: 0.25rem;
+}
+
+  /* MARK: pagina per sport
+  */
+
+.hockey {
+  --sportkleur: light-dark(#c4930d, var(--geel));
+}
+
+.hardlopen {
+  --sportkleur: light-dark(var(--baksteen), #e0a18d);
+}
+
+.gym {
+  --sportkleur: light-dark(var(--gymblauw), #8fb0dd);
+}
+
+.golf {
+  --sportkleur: light-dark(var(--groen), #7cc487);
+}
+
+main > article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+
+  @media (width > 64em) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem 3rem;
+    padding: 3rem 2rem;
+  }
+}
+
+/* MARK: foto, titel en intro
+*/
+
+main > article > figure {
+  padding: 0.6rem 0.6rem 0;
+  background-color: var(--creme);
+  color: var(--zwart);
+  box-shadow: 0.75rem 0.75rem 0 var(--sportkleur);
+
+  @media (width > 64em) {
+    grid-row: 1 / 3;
+  }
+}
+
+main > article figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+main > article > figure img {
+  max-height: 36rem;
+  object-fit: cover;
+}
+
+main > article figcaption {
+  padding: 0.5rem 0 0.6rem;
+  font-family: "space-grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+main > article > hgroup {
+  @media (width > 64em) {
+    align-self: end;
+  }
+}
+
+main > article h1 {
+  font-family: "bebas-neue", sans-serif;
+  font-size: clamp(3.5rem, 12vw, 6rem);
+  line-height: 0.9;
+  color: var(--sportkleur);
+}
+
+main > article hgroup p {
+  margin-top: 0.75rem;
+  font-family: "space-grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+main > article > p {
+  line-height: 1.6;
+
+  @media (width > 64em) {
+    align-self: start;
+  }
+}
+
+/* MARK: twee extra kopjes
+*/
+
+main > article > section {
+  padding: 1.25rem;
+  border: 2px solid var(--sportkleur);
+  border-radius: 0.75rem;
+  box-shadow: 0.4rem 0.4rem 0 var(--sportkleur);
+
+  @media (width > 48em) {
+    padding: 1.75rem;
+  }
+}
+
+main > article h2 {
+  font-family: "bebas-neue", sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 0.75rem;
+  color: var(--sportkleur);
+}
+
+main > article section p {
+  line-height: 1.6;
+}
+
+/* MARK: terug 
+*/
+
+main > article > a {
+  grid-column: 1 / -1;
+  align-self: center;
+  justify-self: center;
+  padding: 0.9rem 2rem;
+  border-radius: 2rem;
+  background-color: var(--sportkleur);
+  color: light-dark(var(--creme), var(--zwart));
+  font-family: "space-grotesk", sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+main > article > a:hover {
+  transform: scale(1.05);
+}
+
+/* MARK: hockeyfoto groter dan rest
+*/
+
+.hockey > figure {
+  @media (width > 64em) {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+}
+
+.hockey > figure img {
+  max-height: 40rem;
+}
+
+/* MARK: schilderijen
+*/
+
+.schilderij-1 {
+  --sportkleur: light-dark(var(--brouwersgracht), #cfcfcf);
+}
+
+.schilderij-2 {
+  --sportkleur: light-dark(var(--voorgevel), #c9a58c);
+}
+
+.schilderij-3 {
+  --sportkleur: light-dark(var(--achtergevel), #9db3c8);
+}
+
+.schilderij-4 {
+  --sportkleur: light-dark(var(--madame), #7fb0ea);
+}
+
+.kaart-brouwersgracht {
+  background-color: var(--brouwersgracht);
+  color: var(--creme);
+}
+
+.kaart-voorgevel {
+  background-color: var(--voorgevel);
+  color: var(--creme);
+}
+
+.kaart-achtergevel {
+  background-color: var(--achtergevel);
+  color: var(--creme);
+}
+
+.kaart-madame {
+  background-color: var(--madame);
+  color: var(--creme);
+}
+
+/* MARK: foto's overzicht
+*/
+
+.schilderijen > li h2 {
+  font-size: clamp(1.4rem, 6vw, 2.2rem);
+  overflow-wrap: anywhere;
+
+  @media (width > 64em) {
+    font-size: 1.5rem;
+  }
+}
+
+main > section > ul > li img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+
+  @media (width > 64em) {
+    height: 100%;
+  }
+}
+
+.kaart-hockey img,
+.kaart-brouwersgracht img {
+  object-position: center 30%;
+}
+
+.kaart-hardlopen img,
+.kaart-voorgevel img {
+  object-position: center 65%;
+}
+
+.schilderijen img {
+  padding: 1rem;
+  object-fit: contain;
+  background-color: #cfcdc7;
+}
+
+/* MARK: foto's schilderij
+*/
+
+.schilderij-1 > figure img,
+.schilderij-2 > figure img,
+.schilderij-3 > figure img,
+.schilderij-4 > figure img {
+  max-height: 46rem;
+  object-fit: contain;
+}

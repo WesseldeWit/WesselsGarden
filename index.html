@@ -1,69 +1,94 @@
 <!doctype html>
 <html lang="nl">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Wessel de Wit" />
-    <meta name="color-scheme" content="dark light" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wessel de Wit">
+    <meta name="description" content="Mijn digital garden: wie ik ben, mijn sporten en mijn woordentrap.">
     <title>Wessel de Wit</title>
-    <link rel="stylesheet" href="./assets/style/normal.css" />
-    
-    
-
-    <!-- Importeer het webring component, voeg jouw eigen domein toe in data-page -->
-    <script
-      data-page="https://wesseldewit.nl"
-      src="https://digitaaltuintje.nl/webring.js"
-      defer
-    ></script>
+    <link rel="stylesheet" href="./assets/style/home.css">
   </head>
 
   <body>
-
     <header>
-      <input type="checkbox" id="darklightknop" class="darklightknop-input" />
-      <label for="darklightknop" class="darklightknop">
-        <span class="mode-light">Light</span>
-        <span class="mode-dark">Dark</span>
-      </label>
+      <nav>
+        <a href="index.html">
+          <img src="./assets/img/LogoWessel-transparant.png" alt="Wessel de Wit, naar home">
+        </a>
+        <ul>
+          <li><a href="index.html" aria-current="page"><img src="./assets/img/menu-thuis.png" alt="Thuis"></a></li>
+          <li><a href="sport.html"><img src="./assets/img/menu-sport.png" alt="Sport"></a></li>
+          <li><a href="schilderijen.html"><img src="./assets/img/menu-schilderijen.png" alt="Mijn Galerij"></a></li>
+          <li><a href="woordentrap.html"><img src="./assets/img/menu-trap.png" alt="Trap"></a></li>
+        </ul>
+      </nav>
 
-      <img src="./LogoWessel-transparant.png" alt="Logo van Wessel de Wit" class="logowessel logowessel-zwart" />
-      <img src="./LogoWessel-wit.png" alt="Logo van Wessel de Wit" class="logowessel logowessel-wit" />
+      <label>
+        <input type="checkbox" aria-label="Donkere modus">
+        <img src="./assets/img/lamp-aan.png" alt="">
+        <img src="./assets/img/lamp-uit.png" alt="">
+      </label>
     </header>
 
-    <main class="trap">
+    <main class="naam-main">
+      <h1>
+        <button type="button" commandfor="over-popup" command="show-modal">
+          <img src="./assets/img/JanWessel.png" alt="Jan Wessel de Wit Cornelis">
+        </button>
+      </h1>
 
-      <span class="h gezondheid"><a href="gezondheid.html">gezondheid</a></span>
-      <span class="h groene-appels">groene appels</span>
-      <span class="h water">water</span>
-      <span class="v ei">ei</span>
-      <span class="v kwark">kwark</span>
-      <span class="v spa">spa</span>
+      <img src="./assets/img/amspaaltje.png" alt="" class="schets-paaltje">
+      <img src="./assets/img/peuk.png" alt="" class="schets-peuk">
 
-      <span class="h sporten"><a href="sporten.html">sporten</a></span>
-      <span class="h hardlopen">hardlopen</span>
-      <span class="h racefietsen">racefietsen</span>
-      <span class="v gym">gym </span>
-      <span class="v padel">padel</span>
-      <span class="v hockey">hockey</span>
+      <button type="button" class="cookie-knop" commandfor="cookie-popup" command="show-modal" aria-label="Info over cookies">
+        <img src="./assets/img/cookie.png" alt="">
+      </button>
 
-      <span class="h focus"><a href="focus.html">focus</a></span>
-      <span class="h leergierig">leergierig</span>
-      <span class="h scherp">scherp</span>  
-      <span class="h discipline">discipline</span>
-      <span class="v aardig">aardig</span>
-      <span class="v eerlijk">eerlijk</span>
-      <span class="v creatief">creatief</span>
-
-      <span class="h Wessel-de-Wit"><a href="wessel-de-wit.html">Wessel de Wit</a></span>
-      <span class="h Amsterdam">Amsterdam</span> 
-      <span class="h Heiloo">Heiloo</span>
-      <span class="h Jan-Wessel-Cornelis"><a href="https://www.linkedin.com/in/wessel-de-wit-4aaa9a252" target="_blank" rel="noopener">Jan Wessel Cornelis</a></span>
-
-
-
-
+      <img src="./assets/img/rat.png" alt="" class="rat">
     </main>
+
+    <footer>
+      <p>&copy; 2026 Wessel de Wit</p>
+      <label>
+        <input type="checkbox">
+        beweging uit
+      </label>
+    </footer>
+
+    <dialog id="cookie-popup" aria-label="Welkom op mijn site!">
+      <h2>Welkom op mijn site!</h2>
+      <p>
+        Deze website heb ik ontworpen en getekend voor mijn CMD-opleiding. Hieronder lees je welke
+        diensten van buitenaf worden gebruikt.
+      </p>
+      <section>
+        <h3>Welke externe diensten worden er gebruikt?</h3>
+        <ul>
+          <li><strong>GitHub Pages:</strong> hiermee wordt deze website gehost.</li>
+          <li><strong>Digitaaltuintje webring:</strong> op de trap-pagina, om mijn site te linken aan andere digital gardens.</li>
+        </ul>
+      </section>
+      <p>
+        Er wordt niets in je browser opgeslagen en er worden geen tracking- of advertentiecookies gebruikt. Dit koekje
+        is dus puur decoratie.
+      </p>
+      <form method="dialog">
+        <button>Akkoord &amp; sluiten</button>
+      </form>
+    </dialog>
+
+    <dialog id="over-popup" aria-label="Over mij">
+      <h2>Over mij</h2>
+      <p>
+        Ik ben Wessel en ik studeer Communicatie Multimedia Design aan de HvA in Amsterdam. Mijn focus ligt op nieuwe
+        dingen bedenken, ontwerpen en maken. 
+      </p>
+      <p>
+        Op deze site laat ik twee verschillende kanten van mij zien: namelijk mijn sportieve kant en mijn creatieve kant. De sportieve kant laat ik zien op de sportpagina, waar ik mijn favoriete sporten en sportmomenten deel. De creatieve kant laat ik zien op de galerijpagina, waar ik mijn schilderijen en tekeningen deel.
+      </p>
+      <form method="dialog">
+        <button>Sluiten</button>
+      </form>
+    </dialog>
   </body>
 </html>

@@ -20,7 +20,7 @@ html {
 body {
   margin: 0;
   background-color: var(--background-color);
-  background-image: url("/achtergond-light.png");
+  background-image: url("../img/achtergond-light.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -199,6 +199,7 @@ body {
 .hockey:hover {
   color: #2979ff;
 }
+
 
 .focus {
  left: 45.9%;
@@ -395,7 +396,7 @@ body:has(#darklightknop:checked) .mode-dark {
 body:has(#darklightknop:checked) {
   --text-color: white;
   --background-color: black;
-  background-image: url("/achtergond-dark.png");
+  background-image: url("../img/achtergond-dark.png");
 }
 
 
