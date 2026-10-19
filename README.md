@@ -421,26 +421,9 @@ Antwoord: ik vind het kleurcontrast misschien wel het lastigst, want ik ben zelf
 
 Piek- en daltekening (foto):
 ![piek- en daltekening retrospect sprint 2](assets/img/retrospect-sprint2-tekening.jpg)
-Metafoor met titel:
+Metafoor met titel: Zoeken naar mezelf
 
 Uitleg bij de tekening: in de tekening zie je mijn voortgang van die sprint qua ideeën. Ik had natuurlijk eerst een aantal ideeën, maar dat was niet goed. Dus toen moest ik het op een andere manier doen. Ik was daar vooral mee bezig: bedenken hoe ik dan wel een site kon maken die gebaseerd is op wat ik allemaal leuk vind en wat bij mij past.
 
 Toen kwam ik eerst op het sportgedeelte, maar ik vond het nog een beetje saai en wilde nog een andere kant van mezelf laten zien. Ik heb ook een aantal schilderijen gemaakt, dus daarmee kon ik ook mijn creatieve kant laten zien. 
 
-**Oriënteren en begrijpen**
-
-Hulpvragen: Waarom geven de docenten deze opdracht? Welke technieken gebruik ik? Wat zijn de randvoorwaarden? Waar gebruik ik HTML en CSS voor? Wat kan er allemaal met CSS?
-
-**Verbeelden en conceptualiseren**
-
-Hulpvragen: Lukt het om verschillende ideeën te bedenken? Lukt het om mijn ideeën te schetsen? Wat doet deze CSS-property? Welke content en HTML heb ik nodig? Hoe kan ik dit soort content vormgeven? Wat als ik hier nu eens 1000 invul?
-
-**Prototypen en uitwerken**
-
-Hulpvragen: Begrijpen bezoekers de site? Wat vindt de opdrachtgever ervan? Werkt dit wel? Kan dit ook?
-
-**Evalueren**
-
-Hulpvragen (the riddle): 1. Wat wilde ik weten of bereiken? 2. Wat heb ik gedaan? 3. Wat was het resultaat? 4. Wat weet ik nu (niet)?
-
-Feedback:
