@@ -6,28 +6,9 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 1. Basisopzet
 
-In de les moesten we een onderwerp verzinnen voor onze digital garden en in Miro daar allemaal afbeeldingen bij zoeken. Mijn onderwerp dat ik had gekozen was discipline. Dit heb ik gekozen omdat ik vind dat dit goed bij mij past. In mijn leven sport ik veel en probeer ik zo gezond en gebalanceerd mogelijk te leven. Hierbij is discipline cruciaal. In eerste instantie zochten we naar afbeeldingen die erbij pasten en daarna moesten we een abstracte versie daarvan vinden. Daarbij moesten we allerlei sfeerwoorden bedenken die pasten bij het onderwerp. Wat mij opviel, zoals te zien is in de afbeelding, is dat focus, op een letterlijke en figuurlijke manier, veel te zien was in de afbeeldingen die ik had gevonden.
-
-![foto miro](miroboard1.jpg)
-![foto miro](miroboard2.jpg)
-
-Dit heb ik meegenomen in mijn schetsen en ben eerst begonnen met het maken van een paar Crazy 8's. Daar heb ik allerlei verschillende schermen gemaakt waarbij de focus uiteindelijk gaat naar een specifiek punt. Nadat ik wat ideeën had opgedaan, ben ik wireframes gaan schetsen met annotaties ter verduidelijking. De annotaties zette ik voorheen niet bij mijn schetsen, maar na de deep dive zie ik zeker in dat dit een toevoeging is, helemaal als je het in verschillende kleuren doet.
-
-![foto crazy 8](assets/img/crazy8.1.jpeg)
-![foto crazy 8](assets/img/crazy8.2.jpeg)
-
-![foto wireframes](assets/img/wireframe1.jpeg)
-![foto wireframes](assets/img/wireframe2.jpeg)
-
-Na een aantal schetsen gemaakt te hebben, kwam ik er uiteindelijk op uit om een poppetje (ik) een berg te laten beklimmen met bepaalde punten die dan buttons moesten voorstellen. Daarop zou je dan kunnen drukken en zou er informatie te zien zijn. Dit was een leuk idee, maar er zat zeker nog verbetering in. Toen kwam ik op het fantastische idee om de trap te maken uit woorden die in mijn leven zeer van belang zijn, waarbij uiteindelijk aan het einde van de trap mijn volledige naam te lezen is. Nadat ik dit idee in zijn volledigheid op papier had, ben ik gaan coderen.
-
-![foto schetsen](assets/img/eersteversie1.jpeg)
-![foto schetsen](assets/img/eersteversie2.jpeg)
-![foto schetsen](assets/img/eersteversie3.jpeg)
-
-Bij het coderen ben ik in eerste instantie begonnen met hetgeen ik al wist van vorig jaar. Ik heb daarbij met simpele classes alle woorden erin gezet, zodat ik ieder woord individueel kan stylen. Echter moest de site ook responsive zijn, dus ben ik met de theorie van de deep dives aan de gang gegaan. Ik heb zoveel mogelijk van wat er beschikbaar was en wat leuk zou staan op mijn site geprobeerd te gebruiken.
-
-![foto eerste versie](website1.jpg)
+Aanleiding:
+Het idee:
+Miro en schetsen:
 
 ### 2. Belangrijkste keuzes en waarom
 
@@ -79,6 +60,43 @@ Antwoord: Ik heb eigenlijk geen websites die mij inspireren.
 
 Antwoord: Als onderwerp kies ik iets wat dicht bij mij staat, dingen waar ik veel mee bezig ben zoals sporten en gezond leven.
 
+#### Rangschikken (achteraf ingevuld)
+
+Site 1:
+Fluide/adaptief:
+Interactief/dynamisch:
+Toegankelijk:
+Volwassen:
+Expressief:
+Leuk/verrassend:
+
+Site 2:
+Fluide/adaptief:
+Interactief/dynamisch:
+Toegankelijk:
+Volwassen:
+Expressief:
+Leuk/verrassend:
+
+Meest webby en waarom:
+
+#### Eigen verkenning (achteraf ingevuld)
+
+Toon van mijn garden:
+Wat ik zag bij andere sites en zelf ook wil (webby dingen):
+Eigen content die ik kan schrijven:
+Content van een ander eigen maken (mag dat en hoe):
+Hoe de content te ervaren is behalve tekst en beeld:
+
+#### Presentatie (achteraf ingevuld)
+
+Link naar de presentatie:
+Intro (max. 180 tekens):
+Essentie van mijn onderwerp:
+Woorden uit de kwaliteitenlijst die erbij passen:
+Karakter dat erbij hoort:
+Ik wil mijn Digital Garden laten gaan over … en wil dat laten zien door …:
+
 #### Wo: WS 2
 
 1. Leg uit waar het Visual Research in 3 stappen naartoe werkt.
@@ -93,7 +111,54 @@ Antwoord: Mijn garden wordt een trap met allerlei woorden. Al die woorden bij el
 
 Antwoord: Ik wil dat de focus gaat naar één punt. (mijn naam)
 
-(Vr: WS 3 + Voortgang had geen checkout.)
+In de les moesten we een onderwerp verzinnen voor onze digital garden en in Miro daar allemaal afbeeldingen bij zoeken. Mijn onderwerp dat ik had gekozen was discipline. Dit heb ik gekozen omdat ik vind dat dit goed bij mij past. In mijn leven sport ik veel en probeer ik zo gezond en gebalanceerd mogelijk te leven. Hierbij is discipline cruciaal. In eerste instantie zochten we naar afbeeldingen die erbij pasten en daarna moesten we een abstracte versie daarvan vinden. Daarbij moesten we allerlei sfeerwoorden bedenken die pasten bij het onderwerp. Wat mij opviel, zoals te zien is in de afbeelding, is dat focus, op een letterlijke en figuurlijke manier, veel te zien was in de afbeeldingen die ik had gevonden.
+
+![foto miro](miroboard1.jpg)
+![foto miro](miroboard2.jpg)
+
+Dit heb ik meegenomen in mijn schetsen en ben eerst begonnen met het maken van een paar Crazy 8's. Daar heb ik allerlei verschillende schermen gemaakt waarbij de focus uiteindelijk gaat naar een specifiek punt.
+
+![foto crazy 8](assets/img/crazy8.1.jpeg)
+![foto crazy 8](assets/img/crazy8.2.jpeg)
+
+Visual research (achteraf ingevuld)
+
+Sfeerwoord: ik voel mij …
+Uitgangspunt 1, kenmerken / eigenschappen / wat ik ga schetsen:
+Uitgangspunt 2, kenmerken / eigenschappen / wat ik ga schetsen:
+Uitgangspunt 3, kenmerken / eigenschappen / wat ik ga schetsen:
+Uitgangspunt 4, kenmerken / eigenschappen / wat ik ga schetsen:
+
+Crazy 8 beoordeeld met het werkvel:
+Is het webby genoeg:
+Wat kan beter:
+
+#### Vr: WS 3 + Voortgang
+
+1. Welke feedback heb je gehad?
+
+Antwoord: De eerste vrijdag bij de feedback had ik online feedback gekregen van Justus. Hij vertelde dat de manier van coderen niet leesbaar was. De reden daarvoor was dat ik het vorig jaar zo had geleerd, maar in DLO staat dat het op een andere manier moet. Toen ben ik opnieuw begonnen en heb ik het op de juiste manier gecodeerd.
+
+Nadat ik wat ideeën had opgedaan, ben ik wireframes gaan schetsen met annotaties ter verduidelijking. De annotaties zette ik voorheen niet bij mijn schetsen, maar na de deep dive zie ik zeker in dat dit een toevoeging is, helemaal als je het in verschillende kleuren doet.
+
+![foto wireframes](assets/img/wireframe1.jpeg)
+![foto wireframes](assets/img/wireframe2.jpeg)
+
+Na een aantal schetsen gemaakt te hebben, kwam ik er uiteindelijk op uit om een poppetje (ik) een berg te laten beklimmen met bepaalde punten die dan buttons moesten voorstellen. Daarop zou je dan kunnen drukken en zou er informatie te zien zijn. Dit was een leuk idee, maar er zat zeker nog verbetering in. Toen kwam ik op het fantastische idee om de trap te maken uit woorden die in mijn leven zeer van belang zijn, waarbij uiteindelijk aan het einde van de trap mijn volledige naam te lezen is. Nadat ik dit idee in zijn volledigheid op papier had, ben ik gaan coderen.
+
+
+![foto schetsen](assets/img/eersteversie1.jpeg)
+![foto schetsen](assets/img/eersteversie2.jpeg)
+![foto schetsen](assets/img/eersteversie3.jpeg)
+
+Mobile-first schetsen (achteraf ingevuld)
+
+Schets 3 (foto):
+Uitleg in één zin:
+Schets 4 (foto):
+Uitleg in één zin:
+Schets 5 (foto):
+Uitleg in één zin:
 
 #### Ma: WS 4 + Bi-weekly geek 1
 
@@ -108,6 +173,19 @@ Antwoord: @media
 3. Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
 
 Antwoord: Nee, dat kan ik helaas niet.
+
+Bij het coderen ben ik in eerste instantie begonnen met hetgeen ik al wist van vorig jaar. Ik heb daarbij met simpele classes alle woorden erin gezet, zodat ik ieder woord individueel kan stylen. Echter moest de site ook responsive zijn, dus ben ik met de theorie van de deep dives aan de gang gegaan. Ik heb zoveel mogelijk van wat er beschikbaar was en wat leuk zou staan op mijn site geprobeerd te gebruiken.
+
+![foto eerste versie](website1.jpg)
+
+Ik had ook nog feedback gekregen van een studiegenoot. Die zei namelijk dat de lay-out heel gaaf is, maar dat de trap er niet meer helemaal mooi uitziet wanneer je het op je telefoon bekijkt. Daardoor is het niet meer leesbaar. Ook zei diegene dat er misschien iets meer kleur toegevoegd moet worden. 
+
+Responsive (achteraf ingevuld)
+
+Wanneer mijn site lelijk wordt en wat ik eraan deed:
+Responsive voorbeeld 1 (link), wat werkt en waarom:
+Responsive voorbeeld 2 (link), wat werkt en waarom:
+Responsive voorbeeld 3 (link), wat werkt en waarom:
 
 #### Wo: Workshop 5
 
@@ -126,15 +204,47 @@ Antwoord: Doordat je iets in een grid zet kan je daarmee overzicht creëren wat 
 
 Antwoord: Doordat alle woorden op een bepaalde manier gepositioneerd zijn zie je een trap (nabijheid gestalt-principe).
 
+Ontwerpprincipes (achteraf ingevuld)
+
+Mobiele schets (foto):
+Variant met nadruk op contrast (foto + één zin):
+Variant met nadruk op witruimte (foto + één zin):
+Variant met nadruk op hiërarchie (foto + één zin):
+Desktop-schets op een grid (foto + één zin):
+
+#### Retrospect 1
+
+Piek- en daltekening (foto):
+Metafoor met titel:
+Oriënteren en begrijpen:
+Verbeelden en conceptualiseren:
+Prototypen en uitwerken:
+Evalueren:
+
 ### Sprint 2 - Compliance
 
-#### Ma: Begin Sprint 2
+#### Cookie-werkvel
 
+De Volkskrant
+Wat staat erin: dat ze informatie verzamelen over je apparaat, locatie, browser en surfgedrag. 
+Hoe is het ontworpen: het is heel simplistisch ontworpen en de belangrijkste dingen die zij willen, bijvoorbeeld bij het inloggen of akkoord gaan, zijn geel gemaakt. 
+Waarmee ga ik akkoord als ik op accepteren klik: je gaat akkoord met het geven van je gegevens, zoals die van je apparaat of locatie. De reden dat ze dit waarschijnlijk doen, is dat ze hierdoor reclames kunnen personaliseren voor de gebruiker. 
+
+Paradiso, homepage
+Wat staat erin: allerlei concerten die eraan komen, een soort schema. 
+Hoe is het ontworpen: het is heel vrolijk, maar alsnog heel simplistisch ontworpen. De achtergrond bestaat uit een mooie groene kleur, waarin allerlei verschillende artiesten te zien zijn voor het programma. Wanneer je dan naar beneden scrolt, zie je op een heel simplistische manier op welke datum welke artiest moet optreden. De tijd staat erbij en ook of er nog kaarten te halen zijn. 
+Waarmee ga ik akkoord als ik op accepteren klik: als je op ‘Akkoord’ drukt, geef je toestemming dat Google je gegevens verzamelt. 
+
+Paradiso, concertpagina Songhoy Blues
+Wat staat erin: er staat in wat de band inhoudt, wanneer de deuren opengaan, wanneer ze beginnen en op welke dag het is. Daarnaast zie je nog een filmpje over een muziekvideo, denk ik.
+Hoe is het ontworpen: bij het drukken op de cookies kun je tussen verschillende dingen kiezen namellijk noodzakelijk, voorkeuren, statistieken en marketing. Je kunt dus zelf bepalen waarvoor je iets accepteert. 
+Waarmee ga ik akkoord als ik op accepteren klik: om de video te bekijken, moet je eerst de cookies aanvaarden. Als je daarop klikt, kun je de video pas zien. 
+
+#### Ma: Begin Sprint 2
 
 1. Wat zijn HTML landmark role elements?
 
 Antwoord: Dat zijn elementen zoals header, footer, nav die bepaalde gedeeltes van de pagina aangeven.
-
 
 2. Wat zijn heading elementen en hoe horen deze 'genest' te worden?
 
@@ -142,8 +252,7 @@ Antwoord: dat is de h1 tot en met h5 die horen in de header genest te worden.
 
 3. Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.
 
-Antwoord: Ik druk eigenlijk altijd zonder iets te lezen op accepteren. Lui.
-
+Antwoord: Ik druk eigenlijk altijd zonder iets te lezen op accepteren. 
 
 #### Wo: Workshop 2
 
@@ -151,7 +260,7 @@ Human Consent Component
 
 1. Bespreek in jouw groepje welke gegevens op jouw digital garden van gebruikers verwerkt worden. Houdt daarbij in de gaten welke diensten je allemaal gebruikt. Zelfs als je alles zelf geschreven hebt zijn dat er al twee: GitHub pages hosting én het digitaaltuintje component 
 
-Antwoord: Google fonts, LinkedIn link, Pinterest img, Wessels IMG, Gitub en browser. Voor de rest zijn alle afbeeldingen die ik 
+Antwoord: Google fonts, LinkedIn link, Pinterest img, Wessels IMG, Gitub en browser. Voor de rest zijn alle afbeeldingen die ik op mijn website staat dat alles van mijzelf is. 
 
 2. Informeren van gebruikers is een plicht die je hebt als websitemaker: Hoe kan je gebruikers informeren over het gebruik van hun gegevens op jouw website?
 
@@ -163,8 +272,7 @@ Antwoord: Bewust aanvinken, Extra bevestiging via e-mail, Keuzeschuifjes per cat
 
 4. Denk na over een manier van werken die past binnen de layout van jouw digital garden? 
 
-Antwoord: -
-
+Antwoord: De manier waarop ik dat op mijn website ga realiseren, is door middel van allerlei zelfgemaakte schetsjes. 
 
 Check-out
 
@@ -178,25 +286,77 @@ Antwoord:  Fomo, Social Proof, Fake Discounting
 
 3. Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
 
-Antwoord: 
-Dat het etisch verantwoord is
+Antwoord: Dat het etisch verantwoord is. Je kan niet bepaalde dingen doen, zoals bepaalde informatie automatisch akkoord geven. 
 
+#### Dark-pattern-herontwerp
+
+Gekozen site: Booking.com
+
+Huidige consent-flow en dark patterns (foto):
+
+![dark patterns herkennen](assets/img/darkpatterns-herkennen.jpg)
+
+Darkpatterns: op de site herken je verschillende dark patterns. Dingen die je vooral ziet, zijn bijvoorbeeld FOMO. Ze proberen je door schaarste aan te geven sneller over te halen om iets te kopen.Daarnaast heb je ook social proof. Ze geven bijvoorbeeld een cijfer aan iets, waardoor je denkt dat het beter is, terwijl dat misschien wel op niks gebaseerd is. Ook heb je ook fake discounting. Dat houdt in dat ze doen alsof ze iets heel goedkoop hebben afgeprijsd, terwijl dat in werkelijkheid helemaal niet zo is. Het lijkt dus alleen maar zo.
+
+Herontwerp (foto):
+
+![dark patterns oplossingen](assets/img/darkpatterns-oplossingen.jpg)
+
+Wat ik heb veranderd en waarom: het eerste wat ik heb veranderd, is de prijs. Die moet gewoon transparant zijn. Er moet geen fake discounting op zitten. Dat is niet goed. Je moet ook geen FOMO creëren bij de klant. Je moet gewoon heel duidelijk zijn over wat het is. Je moet niet zeggen dat er nog vijf plaatsen of plekken beschikbaar zijn; je moet gewoon zeggen: het is beschikbaar of het is vol.
+
+Misschien is het eerst handig dat er geen cijfer aan gekoppeld is, maar dat je wel reviews kunt zien. Misschien zie je helemaal onderaan de reviews dan een cijfer, zodat je eerst zelf gaat kijken wat mensen ervan vinden en er daarna pas een cijfer aan gekoppeld wordt. 
+
+Opmerking filmpje Dan Saffer: ik vond het een beetje een outdated filmpje. Het was van 12 jaar geleden en hetgeen wat ze daarin zeggen, is natuurlijk nog steeds relevant, maar er zijn vast wel filmpjes die micro-interacties laten zien hoe het nu allemaal is in plaats van hoe dat vroeger allemaal ging. 
+
+#### Wireframes en wireflow cookie-pop-up
+
+Mobiel (foto):
+
+![wireflow cookie-pop-up mobiel](assets/img/wireflow-cookie-mobiel.jpg)
+
+Laptop (foto):
+
+![wireflow cookie-pop-up laptop](assets/img/wireflow-cookie.jpg)
+
+Waarom twee formaten:
+Ik heb maar twee formaten gedaan, omdat ik het gebaseerd heb op een telefoonscherm en een laptopscherm. Daartussen zit voor mij niks. Zodra het scherm een bepaald percentage krimpt, schakelt het gewoon over naar de telefoonmodus. Zo ook andersom. 
 
 #### Vr: Geautomatiseerd testen + Voortgang
 
+#### W3C-validatie
+
+![W3C-validatie index](assets/img/validatie-index.jpg)
+
+Op mijn website zijn geen waarschuwingen of fouten te zien. 
+
+
 1. Wat is HTML validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?
 
-Antwoord:
+Antwoord: het is belangrijk, omdat het leesbaar moet zijn voor iedereen. 
 
 2. Welke dingen vielen je op?
 
-Antwoord:
+Antwoord: in eerste instantie viel het mij op dat je alles moet labelen, zodat  bijvoorbeeld een afbeelding ook leesbaar is. 
 
 3. Welke feedback heb je ontvangen tijdens het gesprek met je docenten?
 
-Antwoord:
+Antwoord: Justus zei: “Als iets niet leesbaar is, kan het ook niet fout zijn.” Daardoor heb ik ervoor gezorgd dat alles leesbaar is voor de computer. Uiteindelijk heeft dat ertoe geleid dat er geen fouten meer in zitten en dat het wel leesbaar is. 
 
 #### Ma: Handmatig testen + Bi-weekly geek 2
+
+#### NS-reis plannen
+
+Alleen toetsenbord
+Wat goed ging, is dat ik via tap heel gemakkelijk door de gehele pagina kon klikken. Het ging op zich wel gemakkelijk. Wat ik vooral gebruikte, was Tab, Shift+Tab, Pijltjes en Enter. Met deze toetsen de reisboeken. Wat ik wat lastiger vond, is dat er op een gegeven moment een pop-up kwam met de vraag wie mijn locatie wilde hebben en of ik die wilde delen. Met mijn toetsenbord kon ik niet door die knoppen klikken, omdat het misschien een pop-up van mijn eigen laptop was en niet van de site zelf.
+
+Met VoiceOver
+
+Ik vind dit een stuk minder efficiënt dan wat je met het toetsenbord hebt. De voice-over praat heel snel en heeft een robotstem die ik moeilijk te verstaan vind. Daarnaast vind ik dat hij ook bepaalde dingen voorleest die voor mijn gevoel niet heel relevant zijn. De knoppen die ik vooral heb gebruikt, zijn Command+F5 om het voorlezen te beginnen en Ctrl om het te stoppen. 
+
+Spiekbrief toetsenbord en VoiceOver:
+
+![spiekbrief toetsenbord en VoiceOver](assets/img/spiekbrief-toetsenbord-voiceover.jpg)
+Vergelijking, wat was lastiger en waarom: ik vond de voice-over een stuk lastiger dan navigeren met het toetsenbord. Je moet echt meer je aandacht erbij houden om de voice-over bij te houden dan wanneer je een toetsenbord gebruikt. Dat kun je gewoon op je eigen tempo doen. 
 
 1. Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
 
@@ -204,7 +364,7 @@ Antwoord:
 
 2. Wat voor type beperkingen hebben invloed op het gebruiken van websites?
 
-Antwoord:
+Antwoord: 
 
 3. Noem drie manieren om door een website te navigeren met jouw screenreader.
 
