@@ -18,23 +18,13 @@ De achtergrond heb ik zelf gemaakt in Illustrator, in een light-versie en een da
 
 Daarnaast heb ik mijn eigen logo gebruikt. Dat had ik al eerder gemaakt: ik gebruik het ook bij mijn portfolio en als handtekening onder mijn schilderijen. Ik vond het leuk om dat terug te laten komen op mijn digital garden.
 
-### 3. Wat ik onderweg tegenkwam en hoe ik het oploste
-
-### 4. Feedback die ik heb verwerkt
-
-### 5. Wat ik nog zou willen verbeteren
-
-## Learning Log
-
-Alle checkout-vragen uit de DLO, op chronologische volgorde.
-
 ### Sprint 0 - Getting a grip
 
 #### Ma: Kickoff
 
 1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt.
 
-Antwoord: Een source hosting platform is een tool waarin je je code kan maken en opslaan. Wat ik heb gekozen is Visual Studio Code omdat we daar vorig jaar ook al mee hebben gewerkt.
+Antwoord: Een source hosting platform is een tool waarin je je code kan maken en opslaan. Wat ik nu daarvoor gebruik, is GitHub. 
 
 2. Vertel welke domeinnaam jij gekozen hebt en hoe je die hebt gekoppeld aan jouw pagina.
 
@@ -60,35 +50,27 @@ Antwoord: Ik heb eigenlijk geen websites die mij inspireren.
 
 Antwoord: Als onderwerp kies ik iets wat dicht bij mij staat, dingen waar ik veel mee bezig ben zoals sporten en gezond leven.
 
-#### Rangschikken (achteraf ingevuld)
+#### Rangschikken 
 
-Site 1:
-Fluide/adaptief:
-Interactief/dynamisch:
-Toegankelijk:
-Volwassen:
-Expressief:
-Leuk/verrassend:
+Site 1: https://www.adidas.nl/
+Fluide/adaptief: Ja
+Interactief/dynamisch: wanneer je ergens overheen hovert, zie je dat je erop kunt klikken, maar voor de rest gebeurt er niet zoveel.
+Toegankelijk: je ziet een groot verschil tussen de producten en als je erop hovert, zie je ook goed dat er een lijntje omheen komt, zodat je erop kunt klikken. 
+Volwassen: het ziet er zeer professioneel uit. Professionele foto's, verschillende variaties op foto's, maar die wel allemaal bij elkaar passen. 
+Expressief: het ziet er vrij statisch uit. Er zijn simpele lettertypes gebruikt. Simpele kleuren, zoals wit en zwart. 
+Leuk/verrassend: niks verassend
 
-Site 2:
-Fluide/adaptief:
-Interactief/dynamisch:
-Toegankelijk:
-Volwassen:
-Expressief:
-Leuk/verrassend:
+Site 2: https://www.upfront.nl/
+Fluide/adaptief: Ja
+Interactief/dynamisch: wanneer je hovert op een product, gebeurt er iets. Dan zie je de macro’s ervan, of je ziet het product een draai van 360 graden maken. 
+Toegankelijk: 
+Volwassen:wanneer je eroverheen hovert, zie je dat het de knop is, omdat je op het plusje kunt drukken dat dan in beeld verschijnt. Het werkt ook goed op mobiel. 
+Expressief: het ziet er heel simplistisch uit. Eigenlijk is alles in het wit, waardoor de aandacht naar de producten zelf gaat. 
+Leuk/verrassend: ik vond het effect waarbij de producten een draai van 360 graden maken leuk. 
 
-Meest webby en waarom:
+Meest webby en waarom: ik denk dat ik die van het upfront het meest webby vind, omdat daar meer gebeurt dan op de site van Adidas. 
 
-#### Eigen verkenning (achteraf ingevuld)
-
-Toon van mijn garden:
-Wat ik zag bij andere sites en zelf ook wil (webby dingen):
-Eigen content die ik kan schrijven:
-Content van een ander eigen maken (mag dat en hoe):
-Hoe de content te ervaren is behalve tekst en beeld:
-
-#### Presentatie (achteraf ingevuld)
+#### Presentatie 
 
 Link naar de presentatie:
 Intro (max. 180 tekens):
@@ -427,3 +409,70 @@ Uitleg bij de tekening: in de tekening zie je mijn voortgang van die sprint qua 
 
 Toen kwam ik eerst op het sportgedeelte, maar ik vond het nog een beetje saai en wilde nog een andere kant van mezelf laten zien. Ik heb ook een aantal schilderijen gemaakt, dus daarmee kon ik ook mijn creatieve kant laten zien. 
 
+### Sprint 3 - De regels & het spel
+
+#### Ma: Check-out typografie
+
+Kerning: wat je met kerning kunt doen, is bijvoorbeeld bij grote letters, zoals bij mijn naam, de W en de E dichter naar elkaar toe trekken. Er kan namelijk nog weleens ruimte tussen zitten. Met kerning zorg je ervoor dat die twee individuele letters dichter bij elkaar komen, zodat er minder ruimte tussen zit. 
+
+Tracking: wat je met tracking kunt doen, is de ruimte tussen de letters van specifiek woord uit elkaar trekken voor een geinig effect. 
+
+Leading: met leading kun je de ruimte tussen de regels wat groter maken, zodat het niet zo erg op elkaar zit. 
+
+Flush-left: hierbij begint alles precies links, omdat lezen van links naar rechts het makkelijkste is. Dat zijn wij namelijk wewend. 
+
+Flush-right: dit kun je het best gebruiken voor losse woorden om ze aan de rechterkant te zetten.  
+
+Centered: hiermee staat alles netjes in het midden gecentreerd. Het is symmetrisch. 
+
+Justified: hiermee kan je zowel links als rechts kaarsrechte teksten/ kolommen kolommen. 
+
+Indent: dit gebruik je wanneer je een nieuwe alinea begint. Dan heeft die een spatie. Dan springt die even een klein stukje naar rechts toe, zodat je ziet dat er een nieuw stukje tekst begint. 
+
+Outdent: hierbij gaat hij een beetje naar de buitenkant, dus buiten de kolom, buiten de alinea. 
+
+Modular scale: brengt harmonie en orde
+
+Movable type: zo deden ze het vroeger: losse letters. 
+
+Focuspunt: het punt dat in je ontwerp/design het meest naar voren komt. 
+
+De vijf soorten contrast: kleur, grootte, vorm, witruimte, gewicht
+
+Spatial tension: dit creëer je door asymmetrisch te werk te gaan. Dus door bepaalde ruimtes aan de ene kant meer open te houden dan aan de andere kant, grotere lettertypen of een andere kleur te gebruiken. 
+
+Mijn ideale regellengte (measure) en waarom: ik heb niet per se een precieze, ideale regellengte, maar waar ik wel van houd, is dat het goed leesbaar is. Ik wil niet dat het te groot is, maar het moet er wel heel clean uitzien, vind ik. Dus ik wil het liefst dat het er redelijk klein uitziet, maar alsnog wel leesbaar is. 
+
+Mijn ene variabele voor hiërarchie en waarom:  hierin vind ik plaatsing heel belangrijk. Onder andere in de songtekst die ik heb gemaakt, maar ook in mijn digital garden vind ik het belangrijk dat alles in mijn ogen op precies de juiste plek staat, zodat het een mooi geheel is. Bijvoorbeeld met al mijn schetsen op mijn website, want als die niet op de juiste plek staan, klopt het beeld/achtegrond van de pagina niet. 
+
+
+
+#### Song en schetsen
+
+Nummer en gekozen stuk tekst: het nummer dat ik heb gekozen, is Let It Happen van Tame Impala. De tekst die mij daar het meest aansprak, is: “All this running around, I can't fight it much longer.” 
+
+Hoe voelt het nummer (drie woorden): opbouwend, rustig en spacey
+
+Mijn schetsen (foto's):
+
+![schetsen song 1](assets/img/songschetsen-1.jpg)
+
+![schetsen song 2](assets/img/songschetsen-2.jpg)
+
+![schetsen song 3](assets/img/songschetsen-3.jpg)
+
+Wat doet de opmaak met de tekst (per schets kort): in de schets heb ik proberen te spelen met losse woorden, maar ook met de zinnen zelf. Met losse woorden heb ik bijvoorbeeld bij coming around ervoor gezorgd dat de O wat groter is dan de rest, zodat het round is. Bij longer heb ik de L heel lang gemaakt, zodat het er ook longer uitziet. Bij word closer heb ik het heel klein neergezet, zodat je echt dichtbij moet kijken om het te zien.
+
+Welke schets ga ik digitaal bouwen en waarom: misschien is het leukste om iets digitaals te bouwen. Hetgene over “something trying to get out and it's never been closer”. Dat je daar een beetje mee kan spelen, bijvoorbeeld door iets naar buiten te laten pulseren en het woord “closer” echt naar je toe te laten komen. 
+
+
+Digitale versie 1:
+
+Ik heb de schets gekozen waarin de tekst in een soort rondje staat. Dus ik heb het op die manier gepositioneerd. Iets wat je nog leuker zou kunnen maken, is de tekst of de woorden zelf ook buigend maken, maar ik wist niet hoe dat moest.
+
+![HTML songtekst](assets/img/songtekst-html.png)
+![CSS songtekst](assets/img/songtekst-css.png)
+
+Resultaat:
+
+![songtekst versie 1](assets/img/songtekst-versie-1.png)
