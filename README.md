@@ -441,7 +441,7 @@ De vijf soorten contrast: kleur, grootte, vorm, witruimte, gewicht
 
 Spatial tension: dit creëer je door asymmetrisch te werk te gaan. Dus door bepaalde ruimtes aan de ene kant meer open te houden dan aan de andere kant, grotere lettertypen of een andere kleur te gebruiken. 
 
-Mijn ideale regellengte (measure) en waarom: ik heb niet per se een precieze, ideale regellengte, maar waar ik wel van houd, is dat het goed leesbaar is. Ik wil niet dat het te groot is, maar het moet er wel heel clean uitzien, vind ik. Dus ik wil het liefst dat het er redelijk klein uitziet, maar alsnog wel leesbaar is. 
+Mijn ideale regellengte (measure) en waarom: ik heb niet per se een precieze ideale regellengte, maar waar ik wel van houd, is dat het goed leesbaar is. Dat zit ,meestal tussern de 45 en 75 tekens.Hoe doe ik dan tegen praten?  Ik wil niet dat het te groot is, maar het moet er wel heel clean uitzien, vind ik. Dus ik wil het liefst dat het er redelijk klein uitziet, maar alsnog wel leesbaar is. 
 
 Mijn ene variabele voor hiërarchie en waarom:  hierin vind ik plaatsing heel belangrijk. Onder andere in de songtekst die ik heb gemaakt, maar ook in mijn digital garden vind ik het belangrijk dat alles in mijn ogen op precies de juiste plek staat, zodat het een mooi geheel is. Bijvoorbeeld met al mijn schetsen op mijn website, want als die niet op de juiste plek staan, klopt het beeld/achtegrond van de pagina niet. 
 
