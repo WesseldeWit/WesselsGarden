@@ -468,7 +468,7 @@ Welke schets ga ik digitaal bouwen en waarom: misschien is het leukste om iets d
 
 Digitale versie 1:
 
-Ik heb de schets gekozen waarin de tekst in een soort rondje staat. Dus ik heb het op die manier gepositioneerd. Iets wat je nog leuker zou kunnen maken, is de tekst of de woorden zelf ook buigend maken, maar ik wist niet hoe dat moest.
+Ik heb de schets gekozen waarin de tekst in een soort rondje staat. Dus ik heb het op die manier gepositioneerd. Iets wat je nog leuker zou kunnen maken, is de tekst of de woorden zelf ook buigend maken, of dat je animaties heeft aan de tekst zodat er meer beweging in zit. 
 
 ![HTML songtekst](assets/img/songtekst-html.png)
 ![CSS songtekst](assets/img/songtekst-css.png)
@@ -476,3 +476,5 @@ Ik heb de schets gekozen waarin de tekst in een soort rondje staat. Dus ik heb h
 Resultaat:
 
 ![songtekst versie 1](assets/img/songtekst-versie-1.png)
+
+

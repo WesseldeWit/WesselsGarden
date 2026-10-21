@@ -41,15 +41,12 @@ html {
   --blauw: #1a5fd6;
   --groen: #34743e;
   --geel: #f5c518;
-
   --baksteen: #a2523a;
   --gymblauw: #2f5d8a;
-
   --brouwersgracht: #2b2b2b;
   --voorgevel: #7b5b45;
   --achtergevel: #56677a;
   --madame: #2d6cb3;
-
   --text-color: light-dark(var(--zwart), var(--creme));
   --background-color: light-dark(var(--creme), #2e2e38);
   --link-hover: light-dark(var(--blauw), #6f9fff);
@@ -89,7 +86,7 @@ body {
 
 .skiplink {
   position: absolute;
-  left: -9999px;
+  left: -9788px;
 }
 
 .skiplink:focus {
@@ -308,11 +305,10 @@ main > h1 button:hover {
 .schets-peuk {
   display: none;
   position: fixed;
-  right: 1.5rem;
+  right: 1.3rem;
   bottom: 6.5rem;
   z-index: 15;
-
-  width: 10vw;
+  width: 12vw;
 
   @media (width > 64em) {
     display: block;
