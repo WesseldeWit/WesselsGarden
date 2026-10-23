@@ -6,10 +6,6 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 1. Basisopzet
 
-Aanleiding:
-Het idee:
-Miro en schetsen:
-
 ### 2. Belangrijkste keuzes en waarom
 
 Voor het font ben ik op zoek gegaan naar een duidelijk lettertype. Ik heb uiteindelijk twee fonts gekozen: één voor de belangrijkste woorden en één voor de minder belangrijke woorden.
@@ -72,12 +68,6 @@ Meest webby en waarom: ik denk dat ik die van het upfront het meest webby vind, 
 
 #### Presentatie 
 
-Link naar de presentatie:
-Intro (max. 180 tekens):
-Essentie van mijn onderwerp:
-Woorden uit de kwaliteitenlijst die erbij passen:
-Karakter dat erbij hoort:
-Ik wil mijn Digital Garden laten gaan over … en wil dat laten zien door …:
 
 #### Wo: WS 2
 
@@ -103,17 +93,7 @@ Dit heb ik meegenomen in mijn schetsen en ben eerst begonnen met het maken van e
 ![foto crazy 8](assets/img/crazy8.1.jpeg)
 ![foto crazy 8](assets/img/crazy8.2.jpeg)
 
-Visual research (achteraf ingevuld)
 
-Sfeerwoord: ik voel mij …
-Uitgangspunt 1, kenmerken / eigenschappen / wat ik ga schetsen:
-Uitgangspunt 2, kenmerken / eigenschappen / wat ik ga schetsen:
-Uitgangspunt 3, kenmerken / eigenschappen / wat ik ga schetsen:
-Uitgangspunt 4, kenmerken / eigenschappen / wat ik ga schetsen:
-
-Crazy 8 beoordeeld met het werkvel:
-Is het webby genoeg:
-Wat kan beter:
 
 #### Vr: WS 3 + Voortgang
 
@@ -477,22 +457,6 @@ Resultaat:
 
 ![songtekst versie 1](assets/img/songtekst-versie-1.png)
 
-
-Modular scale (wat is het en welke verhouding gebruik ik):
-
-Vijf soorten contrast in mijn songtekst:
-
-Measure (één getal):
-
-Hoe de doorhaling werkt:
-
-HTML-uitleg:
-
-CSS-uitleg:
-
-Begrippen die ik heb gebruikt:
-
-Wat ik niet kon vertalen naar CSS:
 
 
 #### Ma: Bi-weekly geek 3
