@@ -463,7 +463,7 @@ Mijn schetsen (foto's):
 
 Wat doet de opmaak met de tekst (per schets kort): in de schets heb ik proberen te spelen met losse woorden, maar ook met de zinnen zelf. Met losse woorden heb ik bijvoorbeeld bij coming around ervoor gezorgd dat de O wat groter is dan de rest, zodat het round is. Bij longer heb ik de L heel lang gemaakt, zodat het er ook longer uitziet. Bij word closer heb ik het heel klein neergezet, zodat je echt dichtbij moet kijken om het te zien.
 
-Welke schets ga ik digitaal bouwen en waarom: misschien is het leukste om iets digitaals te bouwen. Hetgene over “something trying to get out and it's never been closer”. Dat je daar een beetje mee kan spelen, bijvoorbeeld door iets naar buiten te laten pulseren en het woord “closer” echt naar je toe te laten komen. 
+Welke schets ga ik digitaal bouwen en waarom:
 
 
 Digitale versie 1:
@@ -478,3 +478,60 @@ Resultaat:
 ![songtekst versie 1](assets/img/songtekst-versie-1.png)
 
 
+Modular scale (wat is het en welke verhouding gebruik ik):
+
+Vijf soorten contrast in mijn songtekst:
+
+Measure (één getal):
+
+Hoe de doorhaling werkt:
+
+HTML-uitleg:
+
+CSS-uitleg:
+
+Begrippen die ik heb gebruikt:
+
+Wat ik niet kon vertalen naar CSS:
+
+
+#### Ma: Bi-weekly geek 3
+
+![bi-weekly geek 3, het web is dood, ingevuld werkblad van ons groepje](assets/img/bi-weekly-geek-3.jpg)
+
+Hier moeten we samen gaan kijken naar hoe je de betrouwbaarheid of onbetrouwbaarheid van een product kunt vergelijken en wie daarin de beste vergelijking kan maken. 
+
+#### Wo: Dotting the i's
+
+![peerfeedback formulier sprint 3, pagina 1](assets/img/dotting-the-is-formulier-1.jpg)
+
+![peerfeedback formulier sprint 3, pagina 2 met mijn top 3](assets/img/dotting-the-is-formulier-2.jpg)
+
+Hieruit is gekomen dat ik de pagina van de woordentrap er misschien wel uit moet halen. Dat is natuurlijk het begin van mijn pagina geweest, maar dat staat helemaal niet in lijn met de rest van mijn website.
+
+Daarnaast moet ik misschien kijken naar de buttons voor de dark- en lightmodus. Wanneer ik deze activeer, wordt de modus alleen op de website zelf aangepast. Wanneer dit vanuit de instellingen op je telefoon of desktop wordt gedaan, gebeurt dat niet.
+
+Daarnaast moet ik het proces van het bouwen van de website nog helemaal in de README zetten.
+
+
+#### Wo: Hiërarchie en Grid (3.4)
+
+![songtekst Let it happen in een grid](assets/img/songtekst-grid.png)
+
+![HTML songtekst met grid](assets/img/songtekst-html-grid.png)
+![CSS songtekst met grid](assets/img/songtekst-css-grid.png)
+
+
+#### Vr: Variable fonts (3.5)
+
+#### Animatie (3.7)
+
+![schetsen van animaties voor mijn songtekst](assets/img/animatie-schetsen.jpg)
+
+![CSS keyframes van mijn songtekst-animaties](assets/img/animatie-css.png)
+
+#### Songtekstversies in mijn website (3.8)
+
+#### Macrotypografie van mijn Digital Garden (3.9)
+
+#### Retrospect 3 (3.10)

@@ -61,13 +61,10 @@ html:has(header input:checked) {
   color-scheme: dark;
 }
 
-html:has(dialog:open) {
-  overflow-y: clip;
-}
-
 html:has(header input:checked) header ul img,
 html:has(header input:checked) header nav > a img,
-html:has(header input:checked) main > h1 img {
+html:has(header input:checked) main > h1 img,
+html:has(header input:checked) .over-mij img {
   filter: invert(1);
 }
 
@@ -86,7 +83,7 @@ body {
 
 .skiplink {
   position: absolute;
-  left: -9788px;
+  left: -97498px;
 }
 
 .skiplink:focus {
@@ -213,12 +210,6 @@ footer p,
 footer label {
   color: var(--text-color);
   opacity: 0.65;
-  transition: opacity 0.2s ease;
-}
-
-footer label:hover {
-  opacity: 1;
-  text-decoration: underline;
 }
 
 footer label {
@@ -262,7 +253,7 @@ body:has(footer input:checked) .rat {
 
 main > h1 {
   width: 100%;
-  max-width: 40rem;
+  max-width: 40rem; 
 }
 
 main > h1 img {
@@ -278,11 +269,6 @@ main > h1 button {
   border: none;
   background: none;
   cursor: pointer;
-  transition: transform 0.25s ease;
-}
-
-main > h1 button:hover {
-  transform: scale(1.02);
 }
 
 /* MARK: schestjes 
@@ -430,6 +416,21 @@ dialog form button:hover {
   transform: scale(1.03);
 }
 
+/* MARK: over mij pop-up
+*/
+
+.over-mij {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.over-mij img {
+  width: clamp(5rem, 25%, 10rem);
+  height: auto;
+  flex-shrink: 0;
+}
+
 /* MARK: cookie pop-up
 */
 
@@ -493,7 +494,7 @@ main > section > ul {
   gap: 1.5rem;
   list-style: none;
 
-  @media (width > 48em) {
+  @media (width > 64em) {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -549,10 +550,6 @@ main > section > ul > li h2 {
   padding: 1.75rem 1.75rem 0.5rem;
   font-family: "bebas-neue", sans-serif;
   font-size: 2.2rem;
-
-  @media (width > 64em) {
-    padding-top: 0;
-  }
 }
 
 main > section > ul > li p {
@@ -568,10 +565,6 @@ main > section > ul > li .lees-meer {
   font-size: 0.75rem;
   line-height: normal;
   letter-spacing: 0.1em;
-
-  @media (width > 64em) {
-    padding-bottom: 0;
-  }
 }
 
 main > section > ul > li:has(a:focus-visible) {
@@ -614,7 +607,7 @@ main > article {
   }
 }
 
-/* MARK: foto, titel en intro
+/* MARK: foto, titel, intro
 */
 
 main > article > figure {
@@ -628,13 +621,10 @@ main > article > figure {
   }
 }
 
-main > article figure img {
+main > article > figure img {
   display: block;
   width: 100%;
   height: auto;
-}
-
-main > article > figure img {
   max-height: 36rem;
   object-fit: cover;
 }
@@ -803,11 +793,6 @@ main > section > ul > li img {
 .kaart-hockey img,
 .kaart-brouwersgracht img {
   object-position: center 30%;
-}
-
-.kaart-hardlopen img,
-.kaart-voorgevel img {
-  object-position: center 65%;
 }
 
 .schilderijen img {

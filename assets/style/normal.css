@@ -352,11 +352,11 @@ body {
 }
 .logowessel {
   position: fixed;
-  top: 12px;
-  left: 12px;
+  top: 1.35rem;
+  left: clamp(0.75rem, 6vw, 6rem);
   z-index: 10;
-  width: 50px;
-  height: auto;
+  height: 3.5rem;
+  width: auto;
 }
 
 footer {
