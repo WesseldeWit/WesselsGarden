@@ -443,19 +443,7 @@ Mijn schetsen (foto's):
 
 Wat doet de opmaak met de tekst (per schets kort): in de schets heb ik proberen te spelen met losse woorden, maar ook met de zinnen zelf. Met losse woorden heb ik bijvoorbeeld bij coming around ervoor gezorgd dat de O wat groter is dan de rest, zodat het round is. Bij longer heb ik de L heel lang gemaakt, zodat het er ook longer uitziet. Bij word closer heb ik het heel klein neergezet, zodat je echt dichtbij moet kijken om het te zien.
 
-Welke schets ga ik digitaal bouwen en waarom:
-
-
-Digitale versie 1:
-
-Ik heb de schets gekozen waarin de tekst in een soort rondje staat. Dus ik heb het op die manier gepositioneerd. Iets wat je nog leuker zou kunnen maken, is de tekst of de woorden zelf ook buigend maken, of dat je animaties heeft aan de tekst zodat er meer beweging in zit. 
-
-![HTML songtekst](assets/img/songtekst-html.png)
-![CSS songtekst](assets/img/songtekst-css.png)
-
-Resultaat:
-
-![songtekst versie 1](assets/img/songtekst-versie-1.png)
+Welke schets ga ik digitaal bouwen en waarom: Ik heb de schets gekozen waarin de tekst in een soort rondje staat. Dus ik heb het op die manier gepositioneerd. Iets wat je nog leuker zou kunnen maken, is de tekst of de woorden zelf ook buigend maken, of dat je animaties heeft aan de tekst zodat er meer beweging in zit.
 
 
 
@@ -478,7 +466,7 @@ Daarnaast moet ik misschien kijken naar de buttons voor de dark- en lightmodus. 
 Daarnaast moet ik het proces van het bouwen van de website nog helemaal in de README zetten.
 
 
-#### Wo: Hiërarchie en Grid (3.4)
+#### Wo: Hiërarchie en Grid
 
 ![songtekst Let it happen in een grid](assets/img/songtekst-grid.png)
 
@@ -486,16 +474,49 @@ Daarnaast moet ik het proces van het bouwen van de website nog helemaal in de RE
 ![CSS songtekst met grid](assets/img/songtekst-css-grid.png)
 
 
-#### Vr: Variable fonts (3.5)
+#### Vr: Variable fonts
 
-#### Animatie (3.7)
+#### Animatie
 
 ![schetsen van animaties voor mijn songtekst](assets/img/animatie-schetsen.jpg)
 
 ![CSS keyframes van mijn songtekst-animaties](assets/img/animatie-css.png)
 
-#### Songtekstversies in mijn website (3.8)
+#### Songtekstversies in mijn website
 
-#### Macrotypografie van mijn Digital Garden (3.9)
+Wat ik bij het nummer voelde en hoe ik dat wilde vertalen in mijn website:
 
-#### Retrospect 3 (3.10)
+##### Versie 1
+
+Schetsen:
+
+![schetsen song 1](assets/img/songschetsen-1.jpg)
+
+![schetsen song 2](assets/img/songschetsen-2.jpg)
+
+![schetsen song 3](assets/img/songschetsen-3.jpg)
+
+Code:
+
+![HTML songtekst](assets/img/songtekst-html.png)
+![CSS songtekst](assets/img/songtekst-css.png)
+
+Resultaat:
+
+![songtekst versie 1](assets/img/songtekst-versie-1.png)
+
+##### Versie 2
+
+Feedback op versie 1:
+
+Schetsen:
+
+![schetsen songtekst versie 2](assets/img/songtekst-schetsen-versie-2.jpg)
+
+Resultaat:
+
+![songtekst versie 2](assets/img/songtekst-versie-2.png)
+
+#### Macrotypografie van mijn Digital Garden
+
+#### Retrospect 3
