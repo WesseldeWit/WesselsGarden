@@ -68,12 +68,13 @@ main {
 */
 
 .logo-home {
-  position: fixed;
+  position: absolute;
   top: 1.35rem;
-  left: 2rem;
+  left: clamp(0.75rem, 6vw, 6rem);
 }
 
 .logo-home img {
+  display: block;
   height: 3.5rem;
 }
 
