@@ -1,202 +1,333 @@
-/* MARK: fonts */
+/* MARK: fonts
+*/
 
 @font-face {
-  font-family: 'Seraphs';
-  src: url('font/SeraphsVF.woff2') format('woff2');
+  font-family: "seraphs";
+  src: url("font/SeraphsVF.woff2") format("woff2");
   font-weight: 100 200;
+  font-style: normal;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MARK: kleuren
+*/
+
+html {
+  color-scheme: dark;
+
+  --zwart: #131310;
+  --donker-paars: #28212c;
+  --paars: #372a3d;
+  --licht-paars: #947197;
+  --wit-roze: #be9eba;
+  --roze: #f06090;
+  --oranje: #e09030;
+  --licht-roze: #f2a7c3;
+  --licht-oranje: #f4b98a;
+}
+
+/* MARK: algemeen
+*/
 
 body {
-  font-family: 'Seraphs';
-  margin: 0;
-  height: 100vh;
-  position: relative;
-  font-size: 2rem;
-  line-height: 4rem;
-  background-color: rgb(150, 150, 150);
-}
-
-/* MARK: logo naar home */
-
-.logo-home {
-  position: fixed;
-  top: 1.35rem;
-  left: clamp(0.75rem, 6vw, 6rem);
-  z-index: 10;
-}
-
-.logo-home img {
-  display: block;
-  height: 3.5rem;
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 12rem);
-  grid-auto-rows: 4rem;
-  height: 100%;
-  justify-items: center;
-  align-items: center;
-}
-
-main section {
-  margin: 0;
-}
-
-
-main section:nth-of-type(1) {
-  grid-column: 2 / span 2;
-  grid-row: 2;
-}
-
-/*Let it happen*/
-main section:nth-of-type(1) h1 {
-  font-size: 6rem; 
-  font-weight: 200;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  margin: 0;
-  animation-name: fontweightanimation;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-
-
-}/*Tame Impala*/
-main section:nth-of-type(2) {
-  grid-column: 8 / span 5;
-  grid-row: 2;
-  font-size: 4rem; 
-  letter-spacing: 2.2rem;
-   animation:
-  fontweightanimation 8s infinite alternate,
-  opacityanimation 8s ease-in forwards;
-}
-
-/*All this*/
-main section:nth-of-type(3) {
-  grid-column: 1 / span 2;
-  grid-row: 12;
-  font-size: 7rem;
-  transform: rotate(-45deg);
+  font-family: "seraphs", serif;
   font-weight: 100;
-  font-variation-settings: "SRFS" 60;
-  animation: fontweightanimation3 3s infinite alternate;
-}
+  font-size: clamp(1.1rem, 1.6vw, 1.6rem);
+  line-height: 1.6;
+  color: var(--wit-roze);
+  background-color: var(--donker-paars);
+  background-image: linear-gradient(160deg, var(--zwart), var(--donker-paars), var(--paars), var(--donker-paars), var(--zwart));
+  background-size: 300% 300%;
+  background-attachment: fixed;
+  animation: spacey 30s ease-in-out infinite alternate;
 
-/*Running around*/
-main section:nth-of-type(4) {
-  grid-column: 2 / span 2;
-  grid-row: 8;
-  font-size: 2.5rem;
-  transform: rotate(-35deg);
-  text-transform: lowercase;
-  animation: fontweightanimation4 3s ease-in-out infinite alternate;
-}
-
-/*I can't*/
-main section:nth-of-type(5) {
-  grid-column: 3 / span 2;
-  grid-row: 5;
-  font-size: 4.5rem;
-  transform: rotate(-20deg);
-  text-decoration: line-through;
-  text-decoration-thickness: 0.1rem;
-  font-weight: 100;
-  animation: textdecorationcoloranimation 5s ease-in 1 forwards;
-}
-
-/*Fight*/
-main section:nth-of-type(6) {
-  grid-column: 4 / span 3;
-  grid-row: 4;
-  font-size: 6rem;
-  font-weight: 200;
-  animation-name: fontweightanimation;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-/*it much*/
-main section:nth-of-type(7) {
-  grid-column: 6 / span 2;
-  grid-row: 6;
-  font-size: 3rem;
-  transform: rotate(29deg);
-  letter-spacing: -0.1rem;
-  animation: fontweightanimation2 3s ease-in-out infinite alternate;
-}
-
-
-/*longer*/
-main section:nth-of-type(8) {
-  grid-column: 8 / span 4;
-  grid-row: 12;
-  font-size: 7rem;
-  transform: rotate(39deg);
-  letter-spacing: 3rem;
-  font-weight: 100;
-  animation: letterspacinganimation 3s ease-in-out infinite alternate;
-
-}
- 
-
-@keyframes fontweightanimation {
-  from { font-variation-settings: "wght" 100, "SRFS" 60; }
-  to   { font-variation-settings: "wght" 200, "SRFS" 60; }
-}
-
-@keyframes fontweightanimation2{
-  from { font-variation-settings: "wght" 100; }
-  to   { font-variation-settings: "wght" 200; }
-}
-
-@keyframes fontweightanimation3 {
-  from { font-variation-settings: "SRFS" 30; }
-  to   { font-variation-settings: "SRFS" 60; }
-}
-
-@keyframes fontweightanimation4 {
-  from { transform: rotate(-50deg); }
-  to   { transform: rotate(-35deg); }
-}
-
-@keyframes textdecorationcoloranimation {
-  from { text-decoration-color: transparent; }
-  to   { text-decoration-color: rgb(179, 53, 53); }
-}
-
-@keyframes opacityanimation {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-@keyframes letterspacinganimation {
-  from { letter-spacing: 0.5rem; }
-  to   { letter-spacing: 2rem; }
-}
-
-
-@media (prefers-reduced-motion: reduce) {
-  main section:nth-of-type(1) h1,
-  main section:nth-of-type(2),
-  main section:nth-of-type(3),
-  main section:nth-of-type(4),
-  main section:nth-of-type(5),
-  main section:nth-of-type(6),
-  main section:nth-of-type(7),
-  main section:nth-of-type(8) {
+  @media (prefers-reduced-motion: reduce) {
     animation: none;
   }
 }
 
-
-footer { 
-  position: absolute;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 1rem;
+@keyframes spacey {
+  from {
+    background-position: left top;
+  }
+  to {
+    background-position: right bottom;
+  }
 }
- 
+
+main {
+  padding: 0 8vw;
+}
+
+/* MARK: logo naar home
+*/
+
+.logo-home {
+  position: fixed;
+  top: 1.35rem;
+  left: 2rem;
+}
+
+.logo-home img {
+  height: 3.5rem;
+}
+
+/* MARK: titel
+*/
+
+hgroup {
+  padding: 6rem 0 4rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  text-shadow: 0 0 0.4em var(--licht-paars);
+  animation: loslaten 10s ease-in-out infinite alternate;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes loslaten {
+  from {
+    letter-spacing: 0.15em;
+    font-variation-settings: "SRFS" 0;
+  }
+  to {
+    letter-spacing: 0.35em;
+    font-variation-settings: "SRFS" 60;
+  }
+}
+
+hgroup p {
+  text-transform: uppercase;
+  letter-spacing: 0.6em;
+  animation: kleuren 12s ease-in-out infinite;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes kleuren {
+  0%,
+  100% {
+    color: var(--wit-roze);
+  }
+  33% {
+    color: var(--roze);
+  }
+  66% {
+    color: var(--oranje);
+  }
+}
+
+/* MARK: coupletten
+*/
+
+.couplet-1,
+.refrein,
+.couplet-2 {
+  margin-bottom: 10rem;
+
+  @media (width > 64em) {
+    width: 55%;
+  }
+}
+
+.couplet-1 {
+  color: var(--wit-roze);
+  font-variation-settings: "SRFS" 0;
+}
+
+.refrein {
+  margin-left: auto;
+  text-align: right;
+  color: var(--licht-roze);
+  font-variation-settings: "SRFS" 20;
+}
+
+.couplet-2 {
+  color: var(--licht-oranje);
+  font-variation-settings: "SRFS" 60;
+}
+
+/* MARK: couplet 1
+*/
+
+.noise {
+  display: inline-block;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  filter: blur(1.5px);
+  animation: trillen 0.8s ease-in-out infinite;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes trillen {
+  0%,
+  100% {
+    translate: 0;
+  }
+  25% {
+    translate: 0.03em -0.02em;
+  }
+  75% {
+    translate: -0.03em 0.02em;
+  }
+}
+
+i {
+  animation: ademen 4s ease-in-out infinite alternate;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes ademen {
+  from {
+    text-shadow: 0 0 0.1em var(--licht-paars);
+  }
+  to {
+    text-shadow: 0 0 0.8em var(--licht-paars);
+  }
+}
+
+.golf {
+  animation: deinen 6s ease-in-out infinite;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes deinen {
+  0%,
+  100% {
+    translate: 0;
+  }
+  50% {
+    translate: 1.5em;
+  }
+}
+
+/* MARK: refrein
+*/
+
+.shadow {
+  font-size: 1.5em;
+  animation: verdwijnen 5s ease-in-out infinite alternate;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes verdwijnen {
+  from {
+    color: var(--licht-roze);
+  }
+  to {
+    color: var(--zwart);
+  }
+}
+
+.heen-weer {
+  animation: heen-en-weer 12s ease-in-out infinite alternate;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes heen-en-weer {
+  from {
+    translate: -1.5em;
+  }
+  to {
+    translate: 1.5em;
+  }
+}
+
+.ocean {
+  font-size: 2em;
+  letter-spacing: 0.15em;
+  color: var(--roze);
+}
+
+.morning {
+  color: var(--oranje);
+}
+
+/* MARK: couplet 2
+*/
+
+.whirlwind {
+  display: inline-block;
+  font-size: 1.5em;
+  color: var(--oranje);
+  animation: draaien 24s linear infinite;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes draaien {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+.wegdrijven {
+  letter-spacing: 0.2em;
+  animation: wegdrijven 10s ease-in-out infinite alternate;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes wegdrijven {
+  from {
+    translate: 0;
+    opacity: 1;
+  }
+  to {
+    translate: 4em;
+    opacity: 0.6;
+  }
+}
+
+.slot {
+  margin-top: 2rem;
+  font-size: 1.3em;
+  letter-spacing: 0.2em;
+  color: var(--roze);
+}
+
+/* MARK: footer
+*/
+
+footer {
+  padding: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
