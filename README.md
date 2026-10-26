@@ -2,117 +2,7 @@
 
 Dit is mijn digitale tuintje voor het vak Het web is voor iedereen. Op deze site laat ik twee kanten van mezelf zien: mijn sportieve kant en mijn creatieve kant.
 
-## Proces van het maken van de site
-
-Aanleiding
-
-Na de laatste feedback op mijn woordentrap, mijn eerste website, besloot ik het helemaal anders aan te pakken. Ik had het niet gecodeerd zoals zij wilden. Ik had het gedaan op de manier die we vorig jaar hadden geleerd, maar dat is geen juiste manier, want zo is het niet goed leesbaar. Daarom ben ik een geheel nieuwe HTML en CSS gaan maken voor de homepagina.
-
-Het idee
-
-Eerst was het belangrijk om schetsen te maken van hoe ik wilde dat de homepagina eruit zou zien. Het is jouw digitale tuintje, dus het moest echt van jou zijn. Om het persoonlijk te maken, wilde ik iets doen met mijn paraaf, een soort logo dat ik zelf heb gemaakt. Dat kreeg ik ook als feedback. Die paraaf wilde ik centraal hebben, met daaromheen allemaal schetsen, zoals te zien is op mijn wireframes.
-
-In mijn schetsboek heb ik verschillende versies uitgeprobeerd van hoe de homepagina eruit kon zien. Ik heb vooral gespeeld met mijn naam: soms Jan Wessel, soms Jan Wessel Cornelis, soms Wessel de Wit, en soms alleen mijn paraaf groot in het midden. In een paar schetsen stond er ook een foto met een stukje tekst bij, en in een andere versie had ik de trap als een soort digitaal tuintje met het menu ernaast. Wat ik bij al die versies het belangrijkste vond, is dat de site echt bij mij zou passen. Daarom wilde ik er zelfgemaakte schetsjes in stoppen. Zo voelt het niet als zomaar een website, maar als iets wat echt van mij is.
-
-![schetsen homepagina, varianten met mijn naam en paraaf](assets/img/schetsen-homepagina-1.jpg)
-
-![schetsen homepagina, versies met foto, tekst en de trap](assets/img/schetsen-homepagina-2.jpg)
-
-![wireframes homepagina met menu, footer, cookieknop en pop-ups](assets/img/schetsen-homepagina-3.jpg)
-
-Mijn eerste idee was om kleine schetsjes te maken die bij mij pasten en die een beetje te laten bewegen, als leuke animatie. Ik wist eigenlijk al van tevoren dat dit niet goed te realiseren was, omdat mijn codeerskills niet mega zijn. Dus ging ik denken aan oplossingen die meer in mijn straatje vallen.
-
-Toen dacht ik: ik pak een van de schilderijen die ik heb gemaakt en gebruik dat als achtergrond van mijn website. Ik vond het wel belangrijk dat mijn naam centraal stond, of iets wat bij mijn naam paste, zoals mijn paraaf. Later kwam ik op het idee om mijn naam zelf te schrijven met mijn Wacom-tablet en die als middelpunt te gebruiken. Toen ik wist dat ik mijn schilderij als achtergrond ging gebruiken, samen met mijn naam en mijn paraaf, ben ik dat gaan coderen.
-
-De opbouw van de pagina
-
-Bij de woordentrap was alles verdeeld met divjes. Maar een divje kan een schermlezer niet lezen, dus dat moest veranderd worden. Nu heb ik alles opgebouwd zoals we in de sprint hebben geleerd en zoals ik uit de feedback heb gehaald: met een header, een main en een footer. Zo is de pagina wel goed leesbaar voor een schermlezer. Hoe je een pagina semantisch opbouwt, heb ik geleerd in de deep dive HTML & CSS Basics van Justus.
-
-De body heb ik in een flexbox-kolom gezet. Met margin-top: auto blijft de footer daardoor altijd onderaan. De header en de footer heb ik even groot gemaakt, zodat het er mooi uitziet.
-
-Aan de zijkanten wilde ik ruimte maken om mijn schetsjes te plaatsen. Dat heb ik in de main gedaan met clamp. Daarmee geef ik een minimum en een maximum aantal pixels aan. Op een laptop of groot scherm gaat het richting het maximum. Hoe groot je scherm is, bepaalt hoe dicht het daarbij komt. Wanneer je het scherm kleiner maakt, gaat het naar het minimum, zodat er altijd witruimte overblijft, bijvoorbeeld voor de lamp. Clamp en variabelen heb ik uit de deep dive Praktische CSS van Vasilis.
-
-Het menu
-
-In de header staat linksboven mijn paraaf. Rechts stond in eerste instantie de navigatie in woorden, maar daar heb ik later kleine icoontjes van gemaakt. De trap is wat ik in eerste instantie had gemaakt. Ik had daar veel tijd in gestopt, dus ik vond het zonde om die weg te doen. Op de sportpagina vertel ik over de sporten die ik doe. De galerij was het laatste wat ik heb bedacht. Om het nog persoonlijker te maken, heb ik naast de tekening van de Brouwersgracht nog een paar andere schilderijen gemaakt. Ik vond het leuk om daar ook wat over te vertellen, omdat het bij mij past.
-
-Het menu heb ik gemaakt met een nav en vijf links. Het belangrijkste is dat ik er aria-current="page" bij heb gezet. Daardoor weet een schermlezer welke pagina actief is. In de CSS heb ik daar een streepje onder gezet, zodat je ook als gewone gebruiker ziet op welke pagina je bent. Aria-current en states zoals :hover en :focus-visible komen uit de deep dive Buttons, states en selectors van Vasilis.
-
-De achtergrond
-
-Ik wilde de tekening van de Brouwersgracht in zijn geheel op mijn website laten zien. Maar die is veel te lang, dus daar moest ik iets op bedenken.
-
-De achtergrond staat alleen in de main. Met de margin en de flexbox zorg ik ervoor dat hij daar niet buiten komt. Met background-size: cover vult hij de hele main. Daardoor is hij niet helemaal zichtbaar, dus het moest een soort animatie worden, waarbij je automatisch door de tekening heen gaat zonder dat je zelf scrollt. Dat heb ik gedaan met een keyframe-animatie, wat ik heb geleerd in de deep dive CSS animaties van Sanne.
-
-Dit gebeurt alleen op een groot scherm, omdat het daar in de breedte staat. Wanneer je het scherm kleiner maakt, zie je op je telefoon uiteindelijk wel de hele tekening.
-
-De schetsjes en responsiveness
-
-Het moest allemaal responsive zijn. Het was de bedoeling om mobile first te ontwerpen, maar ik heb het andersom aangepakt. Ik heb eerst de desktopversie gemaakt, omdat ik daar al mijn schetsjes en ideeën voor had getekend. Maar wanneer het scherm kleiner werd, zag het er heel druk en lelijk uit.
-
-Alle schetsjes hebben position: fixed, zodat ze op een vaste plek op de website staan. Op een klein scherm wilde ik alleen de belangrijkste schetsjes laten zien, zoals de lamp voor de dark- en lightmode en de cookie voor de cookiepop-up. Op een groot scherm zie je ze allemaal. Dat heb ik gedaan door de andere schetsjes display: none te geven. Met een mediaquery worden ze vanaf een bepaalde schermgrootte display: block en dan zie je ze wel. Ik heb ze een eenheid in vw gegeven, zodat ze meegroeien met de grootte van het scherm. Position: fixed heb ik geleerd in de deep dive Position + Dialogs van Sanne, en de mediaquery's in Grid 101 + Media queries van Sanne.
-
-De pop-ups: over mij en de cookie
-
-Op mijn pagina zitten twee pop-ups. Je kunt op mijn naam klikken en op de cookie. Bij mijn naam krijg je onder “Over mij” een stukje over wie ik ben. Bij de cookie krijg je informatie over welke cookies je accepteert. Bij mij zijn dat er niet veel: het gaat om GitHub Pages, waar de site op draait, en de webring van de digitale tuintjes.
-
-Beide pop-ups zijn een dialog. Met commandfor geef je aan welke dialog je gebruikt en met command="show-modal" zeg je dat de knop een modal opent. Zo kun je een pop-up maken zonder JavaScript. Ik heb daarvoor een button gebruikt, omdat je dan op dezelfde pagina blijft. Dat heb ik geleerd in de deep dives Buttons + Dialogs en Position + Dialogs van Sanne.
-
-Light- en darkmode
-
-Een van de opdrachten was om je website, bij mij alleen de homepagina, in een dark- en lightmode te maken. Dit werd ook uitgelegd in de deep dive Light & Dark theme van Vasilis.
-
-In mijn lamp zit een checkbox. Daarmee kun je op de pagina zelf wisselen tussen licht en donker. De checkbox zelf is niet zichtbaar, omdat ik wilde dat het een tekening was in plaats van een normale checkbox. Ik heb twee tekeningen van de lamp gemaakt, eentje voor de darkmode en eentje voor de lightmode. Het label zorgt ervoor dat wanneer je op de tekening klikt, de checkbox ook aan- of uitgezet wordt. Een checkbox samen met :has() gebruiken heb ik uit de deep dive Meer interactie met HTML en CSS van Vasilis.
-
-Bij de woordentrap had ik twee versies van mijn icoontjes gemaakt: een witte en een zwarte. Maar ik dacht: er moet vast een andere manier zijn. Zo kwam ik op het idee om filter: invert(1) te gebruiken. Wanneer je wisselt van licht naar donker, veranderen de zwarte icoontjes daardoor naar wit.
-
-Alle kleuren die moeten wisselen, heb ik als variabelen in de CSS gezet. Wanneer de lamp het kleurenschema op donker zet, wisselen alle kleuren in één keer, overal waar ik die variabelen heb gebruikt. Ik hoef dus niet voor elk onderdeel aparte code te schrijven. Dat scheelt een stuk.
-
-De lamp staat met position: fixed helemaal rechts in het scherm. Met clamp wordt hij groter en kleiner met het scherm mee. Het is een lamp, dus je moet ook zien dat het een lamp is. Bij hover zie je daarom dat het een knop is waar je op kunt klikken, en gaat de lamp een beetje aan door een gele gloed. In de darkmode is dat een blauwe gloed, voor een rookachtig effect, alsof de kaars in de lantaarn net is uitgegaan.
-
-Het enige nadeel van deze manier is dat de modus niet meegaat met de dark- of lightmode-instelling van iemands computer of telefoon. Je kunt het alleen op de website zelf aanpassen. Ik wilde het wel in dezelfde stijl houden als de rest van mijn website, daarom heb ik voor deze keuze gekozen. Het overgrote deel heb ik uit de deep dives gehaald, maar ik wilde er wel mijn eigen swing aan geven.
-
-De rat
-
-Ik vond het leuk als de rat als een soort animatie door het scherm zou bewegen. Ik wist in eerste instantie niet hoe dat moest, dus ik heb het online opgezocht. Zo kwam ik bij keyframes. Daarmee vertel je wat er op welk moment gebeurt. Als je dat koppelt aan een animatie, bepaal je hoe lang en hoe vaak het duurt.
-
-De rat begint helemaal linksonder en de hele animatie duurt 40 seconden. Ik wilde dat hij het grootste deel van de tijd stilstond, dan in een paar seconden over het scherm naar rechts liep en daarna even weg was. Daarvoor heb ik de percentages in de keyframes uitgerekend. Met linear gaat hij overal even snel, en met infinite blijft hij altijd doorgaan. Later kwam dit ook terug in de deep dive CSS animaties van Sanne.
-
-Beweging uit
-
-Volgens de regels voor toegankelijkheid moet je bewegende animaties ook kunnen stoppen. Daarom staat er in de footer een vinkje “beweging uit”. Met :has() kijkt de CSS of dat vinkje aanstaat. Zo ja, dan stoppen alle animaties op het hele scherm, dus ook de achtergrond en de rat.
-
-De sportpagina
-
-Op de sportpagina laat ik de vier sporten zien die ik wekelijks doe: hockey, hardlopen, gym en golf. Elke sport heeft een eigen kaart met een foto, een titel en een korte zin. Als je op een kaart klikt, ga je naar de pagina van die sport.
-
-De kaarten staan in een lijst, omdat het eigenlijk een rijtje sporten is. Met grid staan ze op een telefoon onder elkaar en op een groot scherm twee naast elkaar. In de kaart zelf staat de foto links en de tekst rechts. Bij hover komt de kaart een stukje omhoog met een schaduw, zodat zichtbaar is dat je erop kunt klikken.
-
-Elke sport heeft een eigen kleur. Die heb ik uit de foto zelf gehaald, waardoor het goed matcht. Voor hockey wilde ik in eerste instantie de kleur gebruiken van het Terriërs-shirt, maar het felle geel in combinatie met witte letters kon ik niet gebruiken, omdat het bij de contrastcheck zeer laag scoorde. Daarom heb ik een donkerdere kleur geel gekozen en heb ik in plaats van een witte kleur voor de tekst een zwarte kleur gekozen. Hierdoor is het contrast beter en is het beter leesbaar voor mensen die kleurenblind of slechtziend zijn.
-
-Testen
-
-Om te kijken of mijn site echt voor iedereen werkt, heb ik hem getest. Mijn HTML heb ik door de W3C-validator gehaald. Daarnaast heb ik de site met alleen mijn toetsenbord en met VoiceOver gebruikt, en het contrast van mijn kleuren gecontroleerd. Wat daaruit kwam, staat in de foto's bij sprint 2.
-
-Belangrijkste keuzes en waarom
-
-Voor het font ben ik op zoek gegaan naar een duidelijk lettertype. Ik heb uiteindelijk twee fonts gekozen: één voor de belangrijkste woorden en één voor de minder belangrijke woorden.
-
-Daarnaast heb ik mijn eigen logo gebruikt. Dat had ik al eerder gemaakt: ik gebruik het ook bij mijn portfolio en als handtekening onder mijn schilderijen. Ik vond het leuk om dat terug te laten komen op mijn digital garden.
-
-AI-gebruik
-
-Bij het maken van mijn site en mijn heb ik Claude en Gemini (AI) gebruikt.
-
-Sparren en uitleg: ik heb Claude en Gemini gebruikt om mij te helpen met bepaalde ideeen te verwerkelijken. Wanneer ik een idee had stuurde ik het soms in de chat en die kwam dan met extra aanvulling wat mij weer verder liet denken. 
-
-Code: bij het coderen heb ik om extra uitleg gevraagd bij wat er in de deepdives werd besproken zodat het meer helder werd. Hierdoor kon ik het beter implemnteren op mijn website. 
-
-Teksten: een overgroot deel van mijn teksten heb ik ingesproken waarbij ik Claude heb gebruikt om het vloeiend leesbaar te maken.
-
-Controle: Claude heeft de onnodige code eruit gehaald en het netjes gemaakt. 
-
-Ik heb alles wat erin staat kan het zelf uitleggen.
+## Sprints
 
 ### Sprint 0 - Getting a grip
 
@@ -614,4 +504,114 @@ Resultaat: Waar ik voor gegaan is het creeeren van een rustige maar wel een beet
 
 #### Retrospect 3
 
+## Proces van het maken van de site
 
+Aanleiding
+
+Na de laatste feedback op mijn woordentrap, mijn eerste website, besloot ik het helemaal anders aan te pakken. Ik had het niet gecodeerd zoals zij wilden. Ik had het gedaan op de manier die we vorig jaar hadden geleerd, maar dat is geen juiste manier, want zo is het niet goed leesbaar. Daarom ben ik een geheel nieuwe HTML en CSS gaan maken voor de homepagina.
+
+Het idee
+
+Eerst was het belangrijk om schetsen te maken van hoe ik wilde dat de homepagina eruit zou zien. Het is jouw digitale tuintje, dus het moest echt van jou zijn. Om het persoonlijk te maken, wilde ik iets doen met mijn paraaf, een soort logo dat ik zelf heb gemaakt. Dat kreeg ik ook als feedback. Die paraaf wilde ik centraal hebben, met daaromheen allemaal schetsen, zoals te zien is op mijn wireframes.
+
+In mijn schetsboek heb ik verschillende versies uitgeprobeerd van hoe de homepagina eruit kon zien. Ik heb vooral gespeeld met mijn naam: soms Jan Wessel, soms Jan Wessel Cornelis, soms Wessel de Wit, en soms alleen mijn paraaf groot in het midden. In een paar schetsen stond er ook een foto met een stukje tekst bij, en in een andere versie had ik de trap als een soort digitaal tuintje met het menu ernaast. Wat ik bij al die versies het belangrijkste vond, is dat de site echt bij mij zou passen. Daarom wilde ik er zelfgemaakte schetsjes in stoppen. Zo voelt het niet als zomaar een website, maar als iets wat echt van mij is.
+
+![schetsen homepagina, varianten met mijn naam en paraaf](assets/img/schetsen-homepagina-1.jpg)
+
+![schetsen homepagina, versies met foto, tekst en de trap](assets/img/schetsen-homepagina-2.jpg)
+
+![wireframes homepagina met menu, footer, cookieknop en pop-ups](assets/img/schetsen-homepagina-3.jpg)
+
+Mijn eerste idee was om kleine schetsjes te maken die bij mij pasten en die een beetje te laten bewegen, als leuke animatie. Ik wist eigenlijk al van tevoren dat dit niet goed te realiseren was, omdat mijn codeerskills niet mega zijn. Dus ging ik denken aan oplossingen die meer in mijn straatje vallen.
+
+Toen dacht ik: ik pak een van de schilderijen die ik heb gemaakt en gebruik dat als achtergrond van mijn website. Ik vond het wel belangrijk dat mijn naam centraal stond, of iets wat bij mijn naam paste, zoals mijn paraaf. Later kwam ik op het idee om mijn naam zelf te schrijven met mijn Wacom-tablet en die als middelpunt te gebruiken. Toen ik wist dat ik mijn schilderij als achtergrond ging gebruiken, samen met mijn naam en mijn paraaf, ben ik dat gaan coderen.
+
+De opbouw van de pagina
+
+Bij de woordentrap was alles verdeeld met divjes. Maar een divje kan een schermlezer niet lezen, dus dat moest veranderd worden. Nu heb ik alles opgebouwd zoals we in de sprint hebben geleerd en zoals ik uit de feedback heb gehaald: met een header, een main en een footer. Zo is de pagina wel goed leesbaar voor een schermlezer. Hoe je een pagina semantisch opbouwt, heb ik geleerd in de deep dive HTML & CSS Basics van Justus.
+
+De body heb ik in een flexbox-kolom gezet. Met margin-top: auto blijft de footer daardoor altijd onderaan. De header en de footer heb ik even groot gemaakt, zodat het er mooi uitziet.
+
+Aan de zijkanten wilde ik ruimte maken om mijn schetsjes te plaatsen. Dat heb ik in de main gedaan met clamp. Daarmee geef ik een minimum en een maximum aantal pixels aan. Op een laptop of groot scherm gaat het richting het maximum. Hoe groot je scherm is, bepaalt hoe dicht het daarbij komt. Wanneer je het scherm kleiner maakt, gaat het naar het minimum, zodat er altijd witruimte overblijft, bijvoorbeeld voor de lamp. Clamp en variabelen heb ik uit de deep dive Praktische CSS van Vasilis.
+
+Het menu
+
+In de header staat linksboven mijn paraaf. Rechts stond in eerste instantie de navigatie in woorden, maar daar heb ik later kleine icoontjes van gemaakt. De trap is wat ik in eerste instantie had gemaakt. Ik had daar veel tijd in gestopt, dus ik vond het zonde om die weg te doen. Op de sportpagina vertel ik over de sporten die ik doe. De galerij was het laatste wat ik heb bedacht. Om het nog persoonlijker te maken, heb ik naast de tekening van de Brouwersgracht nog een paar andere schilderijen gemaakt. Ik vond het leuk om daar ook wat over te vertellen, omdat het bij mij past.
+
+Het menu heb ik gemaakt met een nav en vijf links. Het belangrijkste is dat ik er aria-current="page" bij heb gezet. Daardoor weet een schermlezer welke pagina actief is. In de CSS heb ik daar een streepje onder gezet, zodat je ook als gewone gebruiker ziet op welke pagina je bent. Aria-current en states zoals :hover en :focus-visible komen uit de deep dive Buttons, states en selectors van Vasilis.
+
+De achtergrond
+
+Ik wilde de tekening van de Brouwersgracht in zijn geheel op mijn website laten zien. Maar die is veel te lang, dus daar moest ik iets op bedenken.
+
+De achtergrond staat alleen in de main. Met de margin en de flexbox zorg ik ervoor dat hij daar niet buiten komt. Met background-size: cover vult hij de hele main. Daardoor is hij niet helemaal zichtbaar, dus het moest een soort animatie worden, waarbij je automatisch door de tekening heen gaat zonder dat je zelf scrollt. Dat heb ik gedaan met een keyframe-animatie, wat ik heb geleerd in de deep dive CSS animaties van Sanne.
+
+Dit gebeurt alleen op een groot scherm, omdat het daar in de breedte staat. Wanneer je het scherm kleiner maakt, zie je op je telefoon uiteindelijk wel de hele tekening.
+
+De schetsjes en responsiveness
+
+Het moest allemaal responsive zijn. Het was de bedoeling om mobile first te ontwerpen, maar ik heb het andersom aangepakt. Ik heb eerst de desktopversie gemaakt, omdat ik daar al mijn schetsjes en ideeën voor had getekend. Maar wanneer het scherm kleiner werd, zag het er heel druk en lelijk uit.
+
+Alle schetsjes hebben position: fixed, zodat ze op een vaste plek op de website staan. Op een klein scherm wilde ik alleen de belangrijkste schetsjes laten zien, zoals de lamp voor de dark- en lightmode en de cookie voor de cookiepop-up. Op een groot scherm zie je ze allemaal. Dat heb ik gedaan door de andere schetsjes display: none te geven. Met een mediaquery worden ze vanaf een bepaalde schermgrootte display: block en dan zie je ze wel. Ik heb ze een eenheid in vw gegeven, zodat ze meegroeien met de grootte van het scherm. Position: fixed heb ik geleerd in de deep dive Position + Dialogs van Sanne, en de mediaquery's in Grid 101 + Media queries van Sanne.
+
+De pop-ups: over mij en de cookie
+
+Op mijn pagina zitten twee pop-ups. Je kunt op mijn naam klikken en op de cookie. Bij mijn naam krijg je onder “Over mij” een stukje over wie ik ben. Bij de cookie krijg je informatie over welke cookies je accepteert. Bij mij zijn dat er niet veel: het gaat om GitHub Pages, waar de site op draait, en de webring van de digitale tuintjes.
+
+Beide pop-ups zijn een dialog. Met commandfor geef je aan welke dialog je gebruikt en met command="show-modal" zeg je dat de knop een modal opent. Zo kun je een pop-up maken zonder JavaScript. Ik heb daarvoor een button gebruikt, omdat je dan op dezelfde pagina blijft. Dat heb ik geleerd in de deep dives Buttons + Dialogs en Position + Dialogs van Sanne.
+
+Light- en darkmode
+
+Een van de opdrachten was om je website, bij mij alleen de homepagina, in een dark- en lightmode te maken. Dit werd ook uitgelegd in de deep dive Light & Dark theme van Vasilis.
+
+In mijn lamp zit een checkbox. Daarmee kun je op de pagina zelf wisselen tussen licht en donker. De checkbox zelf is niet zichtbaar, omdat ik wilde dat het een tekening was in plaats van een normale checkbox. Ik heb twee tekeningen van de lamp gemaakt, eentje voor de darkmode en eentje voor de lightmode. Het label zorgt ervoor dat wanneer je op de tekening klikt, de checkbox ook aan- of uitgezet wordt. Een checkbox samen met :has() gebruiken heb ik uit de deep dive Meer interactie met HTML en CSS van Vasilis.
+
+Bij de woordentrap had ik twee versies van mijn icoontjes gemaakt: een witte en een zwarte. Maar ik dacht: er moet vast een andere manier zijn. Zo kwam ik op het idee om filter: invert(1) te gebruiken. Wanneer je wisselt van licht naar donker, veranderen de zwarte icoontjes daardoor naar wit.
+
+Alle kleuren die moeten wisselen, heb ik als variabelen in de CSS gezet. Wanneer de lamp het kleurenschema op donker zet, wisselen alle kleuren in één keer, overal waar ik die variabelen heb gebruikt. Ik hoef dus niet voor elk onderdeel aparte code te schrijven. Dat scheelt een stuk.
+
+De lamp staat met position: fixed helemaal rechts in het scherm. Met clamp wordt hij groter en kleiner met het scherm mee. Het is een lamp, dus je moet ook zien dat het een lamp is. Bij hover zie je daarom dat het een knop is waar je op kunt klikken, en gaat de lamp een beetje aan door een gele gloed. In de darkmode is dat een blauwe gloed, voor een rookachtig effect, alsof de kaars in de lantaarn net is uitgegaan.
+
+Het enige nadeel van deze manier is dat de modus niet meegaat met de dark- of lightmode-instelling van iemands computer of telefoon. Je kunt het alleen op de website zelf aanpassen. Ik wilde het wel in dezelfde stijl houden als de rest van mijn website, daarom heb ik voor deze keuze gekozen. Het overgrote deel heb ik uit de deep dives gehaald, maar ik wilde er wel mijn eigen swing aan geven.
+
+De rat
+
+Ik vond het leuk als de rat als een soort animatie door het scherm zou bewegen. Ik wist in eerste instantie niet hoe dat moest, dus ik heb het online opgezocht. Zo kwam ik bij keyframes. Daarmee vertel je wat er op welk moment gebeurt. Als je dat koppelt aan een animatie, bepaal je hoe lang en hoe vaak het duurt.
+
+De rat begint helemaal linksonder en de hele animatie duurt 40 seconden. Ik wilde dat hij het grootste deel van de tijd stilstond, dan in een paar seconden over het scherm naar rechts liep en daarna even weg was. Daarvoor heb ik de percentages in de keyframes uitgerekend. Met linear gaat hij overal even snel, en met infinite blijft hij altijd doorgaan. Later kwam dit ook terug in de deep dive CSS animaties van Sanne.
+
+Beweging uit
+
+Volgens de regels voor toegankelijkheid moet je bewegende animaties ook kunnen stoppen. Daarom staat er in de footer een vinkje “beweging uit”. Met :has() kijkt de CSS of dat vinkje aanstaat. Zo ja, dan stoppen alle animaties op het hele scherm, dus ook de achtergrond en de rat.
+
+De sportpagina
+
+Op de sportpagina laat ik de vier sporten zien die ik wekelijks doe: hockey, hardlopen, gym en golf. Elke sport heeft een eigen kaart met een foto, een titel en een korte zin. Als je op een kaart klikt, ga je naar de pagina van die sport.
+
+De kaarten staan in een lijst, omdat het eigenlijk een rijtje sporten is. Met grid staan ze op een telefoon onder elkaar en op een groot scherm twee naast elkaar. In de kaart zelf staat de foto links en de tekst rechts. Bij hover komt de kaart een stukje omhoog met een schaduw, zodat zichtbaar is dat je erop kunt klikken.
+
+Elke sport heeft een eigen kleur. Die heb ik uit de foto zelf gehaald, waardoor het goed matcht. Voor hockey wilde ik in eerste instantie de kleur gebruiken van het Terriërs-shirt, maar het felle geel in combinatie met witte letters kon ik niet gebruiken, omdat het bij de contrastcheck zeer laag scoorde. Daarom heb ik een donkerdere kleur geel gekozen en heb ik in plaats van een witte kleur voor de tekst een zwarte kleur gekozen. Hierdoor is het contrast beter en is het beter leesbaar voor mensen die kleurenblind of slechtziend zijn.
+
+Testen
+
+Om te kijken of mijn site echt voor iedereen werkt, heb ik hem getest. Mijn HTML heb ik door de W3C-validator gehaald. Daarnaast heb ik de site met alleen mijn toetsenbord en met VoiceOver gebruikt, en het contrast van mijn kleuren gecontroleerd. Wat daaruit kwam, staat in de foto's bij sprint 2.
+
+Belangrijkste keuzes en waarom
+
+Voor het font ben ik op zoek gegaan naar een duidelijk lettertype. Ik heb uiteindelijk twee fonts gekozen: één voor de belangrijkste woorden en één voor de minder belangrijke woorden.
+
+Daarnaast heb ik mijn eigen logo gebruikt. Dat had ik al eerder gemaakt: ik gebruik het ook bij mijn portfolio en als handtekening onder mijn schilderijen. Ik vond het leuk om dat terug te laten komen op mijn digital garden.
+
+AI-gebruik
+
+Bij het maken van mijn site en mijn heb ik Claude en Gemini (AI) gebruikt.
+
+Sparren en uitleg: ik heb Claude en Gemini gebruikt om mij te helpen met bepaalde ideeen te verwerkelijken. Wanneer ik een idee had stuurde ik het soms in de chat en die kwam dan met extra aanvulling wat mij weer verder liet denken. 
+
+Code: bij het coderen heb ik om extra uitleg gevraagd bij wat er in de deepdives werd besproken zodat het meer helder werd. Hierdoor kon ik het beter implemnteren op mijn website. 
+
+Teksten: een overgroot deel van mijn teksten heb ik ingesproken waarbij ik Claude heb gebruikt om het vloeiend leesbaar te maken.
+
+Controle: Claude heeft de onnodige code eruit gehaald en het netjes gemaakt. 
+
+Ik heb alles wat erin staat kan het zelf uitleggen.
