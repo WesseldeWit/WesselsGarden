@@ -171,6 +171,7 @@ header label img {
   display: block;
   height: clamp(3rem, 16vw, 12rem);
   transition: transform 0.2s ease, filter 0.2s ease;
+  filter: drop-shadow(0 0 0.75rem var(--lamp-gloed));
 }
 
 header label img:last-of-type {
@@ -324,6 +325,7 @@ main > h1 button {
   display: block;
   height: clamp(2.75rem, 10vw, 4rem);
   transition: transform 0.2s ease, filter 0.2s ease;
+  filter: drop-shadow(0 0 0.75rem var(--koekje-gloed))
 }
 
 .cookie-knop:hover img {
@@ -456,7 +458,6 @@ dialog form button:hover {
   font-family: "space-grotesk", sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
-  color: var(--link-hover);
   margin-bottom: 0.75rem;
 }
 

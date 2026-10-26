@@ -530,7 +530,7 @@ Om snel verschillende ideeën op papier te zetten, heb ik eerst kleine schetsjes
 
 ![wireframes homepagina met menu, footer, cookieknop en pop-ups](assets/img/schetsen-homepagina-3.jpg)
 
-Mijn eerste idee was om kleine schetsjes te maken die bij mij pasten en die een beetje te laten bewegen, als leuke animatie. Ik wist eigenlijk al van tevoren dat dit niet goed te realiseren was, omdat mijn codeerskills niet mega zijn. Dus ging ik denken aan oplossingen die meer in mijn straatje vallen.
+Mijn eerste idee was om kleine schetsjes te maken die bij mij pasten en die een beetje te laten bewegen, als leuke animatie. Ik wist eigenlijk al van tevoren dat dit niet goed te realiseren was, omdat mijn codeerskills niet mega waren. Dus ging ik denken aan oplossingen die meer in mijn straatje vallen.
 
 Toen dacht ik: ik pak een van de schilderijen die ik heb gemaakt en gebruik dat als achtergrond van mijn website. Ik vond het wel belangrijk dat mijn naam centraal stond, of iets wat bij mijn naam paste, zoals mijn paraaf. Later kwam ik op het idee om mijn naam zelf te schrijven met mijn Wacom-tablet en die als middelpunt te gebruiken. Toen ik wist dat ik mijn schilderij als achtergrond ging gebruiken, samen met mijn naam en mijn paraaf, ben ik dat gaan coderen.
 
@@ -620,10 +620,50 @@ Bij het maken van mijn site en mijn heb ik Claude en Gemini (AI) gebruikt.
 
 Sparren en uitleg: ik heb Claude en Gemini gebruikt om mij te helpen met bepaalde ideeen te verwerkelijken. Wanneer ik een idee had stuurde ik het soms in de chat en die kwam dan met extra aanvulling wat mij weer verder liet denken. 
 
-Code: bij het coderen heb ik om extra uitleg gevraagd bij wat er in de deepdives werd besproken zodat het meer helder werd. Hierdoor kon ik het beter implemnteren op mijn website. 
+Code: bij het coderen heb ik om extra uitleg gevraagd bij wat er in de deepdives werd besproken zodat het meer helder werd. Hierdoor kon ik het beter implemnteren op mijn website. Gevraagd om tips hoe ik het beste bepaalde punten in mijn website kan aanspreken. 
 
-Teksten: een overgroot deel van mijn teksten heb ik ingesproken waarbij ik Claude heb gebruikt om het vloeiend leesbaar te maken.
+Teksten/Afbeeldingen: een overgroot deel van mijn teksten heb ik ingesproken waarbij ik Claude heb gebruikt om het vloeiend leesbaar te maken. Ik heb een aantal schetsen die ik heb gemaakt als png laten maken zodat ik het kon gebruiken in mijn website doordat mijn wacom tablet het niet meer deed. 
 
 Controle: Claude heeft de onnodige code eruit gehaald en het netjes gemaakt. 
 
-Ik heb alles wat erin staat kan het zelf uitleggen.
+Ik heb alles wat erin staat zelf erin gezet en kan ik uitleggen.
+
+## Bronnen
+
+### Deep dives (DLO)
+Het grootste deel van mijn code komt uit de deep dives:
+- HTML & CSS Basics van Justus: semantische opbouw
+- Praktische CSS van Vasilis: clamp() en variabelen
+- Buttons, states en selectors van Vasilis: aria-current, :hover, :focus-visible
+- CSS animaties van Sanne: @keyframes en animation
+- Position + Dialogs en Buttons + Dialogs van Sanne: schetsjes en pop-ups
+- Grid 101 + Media queries van Sanne en Responsive grid van Vasilis: grid en responsive
+- Light & Dark theme en Meer interactie met HTML en CSS van Vasilis: de lamp en beweging uit
+- Variabele fonts van Sanne: Seraphs op de songtekstpagina
+
+### Digitale tuintjes van anderen
+- Inspiratie uit de code van digitale tuintjes van andere studenten
+
+### Youtube 
+- Kevin Powell, HTML & CSS for Absolute Beginners: Semantic HTML: https://www.youtube.com/watch?v=YOsMJQfwqow
+- Kevin Powell, dialog = the easiest way to make a popup modal: https://www.youtube.com/watch?v=TAB_v6yBXIE
+
+
+### Extra uitleg bij de lastige dingen
+- filter: invert(1) voor de icoontjes in darkmode: https://www.w3schools.com/cssref/css3_pr_filter.php
+- display: inline-block, zodat losse woorden kunnen draaien en bewegen: https://www.w3schools.com/css/css_inline-block.asp
+- Bewegende achtergrond met background-size en background-position: https://www.w3schools.com/css/css3_gradients.asp
+- font-variation-settings voor de vorm van Seraphs: https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings
+- form method="dialog" en ::backdrop bij de pop-ups: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog
+
+
+### Testen
+- W3C-validator: https://validator.w3.org/
+- WebAIM contrastchecker: https://webaim.org/resources/contrastchecker/
+
+### Fonts
+- 
+
+### AI
+- Claude
+- Gemini
