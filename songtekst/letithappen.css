@@ -136,31 +136,49 @@ hgroup p {
 /* MARK: coupletten
 */
 
+main {
+  @media (width > 64em) {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+hgroup {
+  grid-column: 1 / -1;
+}
+
 .couplet-1,
 .refrein,
 .couplet-2 {
   margin-bottom: 10rem;
-
-  @media (width > 64em) {
-    width: 55%;
-  }
 }
 
 .couplet-1 {
   color: var(--wit-roze);
   font-variation-settings: "SRFS" 0;
+
+  @media (width > 64em) {
+    grid-column: 1 / 8;
+  }
 }
 
 .refrein {
-  margin-left: auto;
   text-align: right;
   color: var(--licht-roze);
   font-variation-settings: "SRFS" 20;
+
+  @media (width > 64em) {
+    grid-column: 6 / 13;
+  }
 }
 
 .couplet-2 {
   color: var(--licht-oranje);
   font-variation-settings: "SRFS" 60;
+
+  @media (width > 64em) {
+    grid-column: 1 / 8;
+  }
 }
 
 /* MARK: couplet 1
