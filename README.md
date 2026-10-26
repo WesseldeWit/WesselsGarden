@@ -165,6 +165,16 @@ Evalueren: na de hand snapte ik de opdracht dus toch niet helemaal. Ik moest iet
 
 Daarnaast was de manier van coderen niet goed; dat was de manier van vorig jaar, dus ik moest dat helemaal aanpassen. Ik had die tekening zo gemaakt omdat ik dacht dat ik op het goede spoor zat, maar na wat feedback moest ik weer helemaal opnieuw beginnen. 
 
+Competenties:
+
+Oriënteren en begrijpen: Ik ging meteen aan de slag nadat de opdracht was uitgelegd. Maar ik begreep de opdracht nog niet goed, dus het ging eigenlijk al meteen fout.
+
+Evalueren: Ik kreeg feedback van de docent dat het niet goed was. Daarna moest ik helemaal opnieuw beginnen.
+
+Prototypen en uitwerken: Ik had al schetsen gemaakt van de woordentrap. Die heb ik meteen met code uitgewerkt, maar dat was de verkeerde manier van coderen.
+
+Vakkundig en onderzoekend ontwerpen: Na de feedback was ik gemotiveerd om het helemaal opnieuw aan te pakken, en het deze keer op de juiste manier te doen.
+
 ### Sprint 2 - Compliance
 
 #### Cookie-werkvel
@@ -377,6 +387,16 @@ Uitleg bij de tekening: in de tekening zie je mijn voortgang van die sprint qua 
 
 Toen kwam ik eerst op het sportgedeelte, maar ik vond het nog een beetje saai en wilde nog een andere kant van mezelf laten zien. Ik heb ook een aantal schilderijen gemaakt, dus daarmee kon ik ook mijn creatieve kant laten zien. 
 
+Competenties:
+
+Verbeelden en conceptualiseren: Ik had al meteen een idee van wat ik wilde doen, met waar ik in het dagelijks leven mee bezig ben: sport en een gezonde levensstijl. Daarnaast wilde ik ook een creatieve kant van mezelf laten zien. Dat heb ik gedaan met de tekeningen en schilderijen die ik heb gemaakt.
+
+Persoonlijk en geëngageerd ontwerpen: Ik heb een site gemaakt die echt heel persoonlijk is. Dat was ook de bedoeling en de feedback die ik had gekregen. Daarnaast is de site toegankelijk. Doordat ik alles leesbaar heb gemaakt, kunnen mensen met een beperking, zoals blinde mensen, er goed doorheen scrollen. Ook mensen die slechtziend of kleurenblind zijn, kunnen alles goed lezen en zien op mijn website.
+
+Prototypen en uitwerken: Ik heb verschillende schetsen en wireframes gemaakt voor de cookie-pop-up en voor de hele website en de verschillende pagina's, zoals de sportpagina. Dat heb ik eerst geschetst en daarna in code uitgewerkt.
+
+Evalueren: Ik heb toegankelijkheidstesten gedaan, bijvoorbeeld met de W3C-validator, maar ook met VoiceOver en met alleen het toetsenbord en Tab. Daar kwam ik overal goed doorheen.
+
 ### Sprint 3 - De regels & het spel
 
 #### Ma: Check-out typografie
@@ -510,6 +530,40 @@ Ik wilde dat de tekst niet gewoon in een rijtje stond. Daarom staan de couplette
 
 #### Retrospect 3
 
+Piek- en daltekening (foto):
+![piek- en daltekening retrospect sprint 3](assets/img/retrospect-sprint3-tekening.jpg)
+Metafoor met titel: Klimmen in de Code
+
+Uitleg bij de tekening: In de tekening zie je een duidelijke lijn van linksboven naar beneden. Dat is mijn leercurve. Vanaf het begin wist ik al een beetje wat coderen inhield en hoe je een website in elkaar zet, maar het was nog niet op de juiste manier. Een spinnenweb is ook een web, dus het heeft een dubbele betekenis. De spin vangt allerlei soorten code op die ik de afgelopen weken heb geleerd, zoals header, nav, section, article, @media en @keyframes. Daardoor heb ik uiteindelijk de site die ik nu heb.
+
+Competenties:
+
+Prototypen en uitwerken: Ik was begonnen met songtekst versie 1. Daar kreeg ik feedback op van Nicky dat er meer gevoel bij moest komen. Daarna ben ik aan de slag gegaan met versie 2. Die heb ik ook allemaal geschetst en zo geëvalueerd.
+
+Evalueren: Ik kreeg feedback bij de opdracht in de les van Dotting the i's. Daaruit kwam dat de woordentrap, de eerste versie van mijn website, er misschien uit moest. En dat de dark- en lightmode niet via de instellingen van de browser werken.
+
+Samen ontwerpen: Die feedback heb ik verwerkt. Het probleem was dat de woordentrap niet goed gelinkt was met de rest van mijn website. Dat heb ik gefixt. Ik heb de woordentrap erin gelaten, omdat ik het leuk vond om te laten zien dat ik die ook had gemaakt. De dark- en lightmode heb ik tijdens het feedbackmoment besproken met Nicky. Zij zei dat ik in principe wel een dark- en lightmode op mijn pagina heb. Hij werkt alleen op de site zelf en niet via de browser, dus dat maakt niet heel veel uit.
+
+Vakkundig en onderzoekend ontwerpen: Ik heb veel uit de deep dives gehaald. Daarnaast heb ik online dingen opgezocht en YouTube-filmpjes gekeken. Ook heb ik inspiratie gehaald uit de code van medestudenten.
+
+
+#### Ma: Expo, stickers en Webby-check
+
+![stickerronde, de stickers en feedback van mijn klasgenoten](assets/img/stickerronde.jpg)
+
+In de les hebben we met de hele klas een stickerronde gedaan. Je kon drie soorten stickers uitdelen: blauw voor privacy en toegankelijkheid, rood voor ontwerp en persoonlijkheid en groen voor technische vaardigheden. Ik heb vooral goede feedback gekregen. Er kwam vooral uit dat mijn website technisch goed werkt en dat hij veel persoonlijkheid uitstraalt. Dat was ook mijn focus bij het maken van mijn website. Als kleine feedback kreeg ik dat je bij Over mij niet met Tab bij de sluitknop kon komen.
+
+
+![Webby-check met Feyza](assets/img/webby-check-feza.jpg)
+
+Met Feyza heb ik de Webby-check gedaan. We zijn eerst samen naar mijn product gaan kijken, aan de hand van de vragen op het blad. In principe voldeed ik aan alle vragen. Het enige punt waar ik feedback op kreeg, was de pop-up van de cookies. Daar stond een zinnetje in het blauw, en dat vonden ze verwarrend omdat het op een link leek. Die feedback heb ik meteen meegenomen. In plaats van blauw heb ik het zinnetje een normale zwarte kleur gegeven.
+
+
+![check van mijn learning log](assets/img/learning-log-check.jpg)
+
+Bij de learning-logcheck hebben we in een groepje van vier naar elkaars learning logs gekeken. Mijn learning log is op zich redelijk compleet. De processen staan erin, er staan schetsen in en de bronnen heb ik erin gezet. Daarnaast heb ik een uitleg over hoe mijn website is opgebouwd. Daarom denk ik dat ik hier over het algemeen goed op scoorde.
+
+
 ## Proces van het maken van de site
 
 Aanleiding
@@ -622,7 +676,7 @@ Sparren en uitleg: ik heb Claude en Gemini gebruikt om mij te helpen met bepaald
 
 Code: bij het coderen heb ik om extra uitleg gevraagd bij wat er in de deepdives werd besproken zodat het meer helder werd. Hierdoor kon ik het beter implemnteren op mijn website. Gevraagd om tips hoe ik het beste bepaalde punten in mijn website kan aanspreken. 
 
-Teksten/Afbeeldingen: een overgroot deel van mijn teksten heb ik ingesproken waarbij ik Claude heb gebruikt om het vloeiend leesbaar te maken. Ik heb een aantal schetsen die ik heb gemaakt als png laten maken zodat ik het kon gebruiken in mijn website doordat mijn wacom tablet het niet meer deed. 
+Teksten/Afbeeldingen: bij een overgroot deel van mijn teksten heb ik Claude gebruikt om ze vloeiend leesbaar te maken zonder spelfouten of foutive zin structuur. Ik heb een aantal schetsen die ik heb gemaakt als png laten maken zodat ik het kon gebruiken in mijn website doordat mijn wacom tablet het niet meer deed. 
 
 Controle: Claude heeft de onnodige code eruit gehaald en het netjes gemaakt. 
 
@@ -639,7 +693,7 @@ Het grootste deel van mijn code komt uit de deep dives:
 - Position + Dialogs en Buttons + Dialogs van Sanne: schetsjes en pop-ups
 - Grid 101 + Media queries van Sanne en Responsive grid van Vasilis: grid en responsive
 - Light & Dark theme en Meer interactie met HTML en CSS van Vasilis: de lamp en beweging uit
-- Variabele fonts van Sanne: Seraphs op de songtekstpagina
+- Variabele fonts van Sanne: Seraphs op de songtekstpagina. Dit font kreeg iedereen bij de oefening van het vak
 
 ### Digitale tuintjes van anderen
 - Inspiratie uit de code van digitale tuintjes van andere studenten
@@ -660,9 +714,6 @@ Het grootste deel van mijn code komt uit de deep dives:
 ### Testen
 - W3C-validator: https://validator.w3.org/
 - WebAIM contrastchecker: https://webaim.org/resources/contrastchecker/
-
-### Fonts
-- 
 
 ### AI
 - Claude

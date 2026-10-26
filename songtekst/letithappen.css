@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "seraphs";
-  src: url("font/SeraphsVF.woff2") format("woff2");
+  src: url("font/SeraphsVF.woff2");
   font-weight: 100 200;
   font-style: normal;
 }
@@ -60,10 +60,6 @@ body {
   }
 }
 
-main {
-  padding: 0 8vw;
-}
-
 /* MARK: logo naar home
 */
 
@@ -84,6 +80,10 @@ main {
 hgroup {
   padding: 6rem 0 4rem;
   text-align: center;
+
+  @media (width > 64em) {
+    grid-column: 1 / -1;
+  }
 }
 
 h1 {
@@ -137,14 +137,12 @@ hgroup p {
 */
 
 main {
+  padding: 0 8vw;
+
   @media (width > 64em) {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
   }
-}
-
-hgroup {
-  grid-column: 1 / -1;
 }
 
 .couplet-1,
@@ -199,13 +197,13 @@ hgroup {
 @keyframes trillen {
   0%,
   100% {
-    translate: 0;
+    transform: translate(0, 0);
   }
   25% {
-    translate: 0.03em -0.02em;
+    transform: translate(0.03em, -0.02em);
   }
   75% {
-    translate: -0.03em 0.02em;
+    transform: translate(-0.03em, 0.02em);
   }
 }
 
@@ -237,10 +235,10 @@ i {
 @keyframes golven {
   0%,
   100% {
-    translate: 0;
+    transform: translateX(0);
   }
   50% {
-    translate: 1.5em;
+    transform: translateX(1.5em);
   }
 }
 
@@ -275,10 +273,10 @@ i {
 
 @keyframes heen-en-weer {
   from {
-    translate: -1.5em;
+    transform: translateX(-1.5em);
   }
   to {
-    translate: 1.5em;
+    transform: translateX(1.5em);
   }
 }
 
@@ -308,10 +306,10 @@ i {
 
 @keyframes draaien {
   from {
-    rotate: 0deg;
+    transform: rotate(0deg);
   }
   to {
-    rotate: 360deg;
+    transform: rotate(360deg);
   }
 }
 
@@ -326,11 +324,11 @@ i {
 
 @keyframes wegdrijven {
   from {
-    translate: 0;
+    transform: translateX(0);
     opacity: 1;
   }
   to {
-    translate: 4em;
+    transform: translateX(4em);
     opacity: 0.6;
   }
 }
