@@ -34,9 +34,9 @@ Aan de zijkanten wilde ik ruimte maken om mijn schetsjes te plaatsen. Dat heb ik
 
 Het menu
 
-In de header staat linksboven mijn paraaf. Rechts stond in eerste instantie de navigatie in woorden, maar daar heb ik later kleine icoontjes van gemaakt. Het menu bestaat uit vier icoontjes: de homepage, de sportpagina, de galerij en de trap. De trap is wat ik in eerste instantie had gemaakt. Ik had daar veel tijd in gestopt, dus ik vond het zonde om die weg te doen. Op de sportpagina vertel ik over de sporten die ik doe. De galerij was het laatste wat ik heb bedacht. Om het nog persoonlijker te maken, heb ik naast de tekening van de Brouwersgracht nog een paar andere schilderijen gemaakt. Ik vond het leuk om daar ook wat over te vertellen, omdat het bij mij past.
+In de header staat linksboven mijn paraaf. Rechts stond in eerste instantie de navigatie in woorden, maar daar heb ik later kleine icoontjes van gemaakt. De trap is wat ik in eerste instantie had gemaakt. Ik had daar veel tijd in gestopt, dus ik vond het zonde om die weg te doen. Op de sportpagina vertel ik over de sporten die ik doe. De galerij was het laatste wat ik heb bedacht. Om het nog persoonlijker te maken, heb ik naast de tekening van de Brouwersgracht nog een paar andere schilderijen gemaakt. Ik vond het leuk om daar ook wat over te vertellen, omdat het bij mij past.
 
-Het menu heb ik gemaakt met een nav en vier links. Het belangrijkste is dat ik er aria-current="page" bij heb gezet. Daardoor weet een schermlezer welke pagina actief is. In de CSS heb ik daar een streepje onder gezet, zodat je ook als gewone gebruiker ziet op welke pagina je bent. Aria-current en states zoals :hover en :focus-visible komen uit de deep dive Buttons, states en selectors van Vasilis.
+Het menu heb ik gemaakt met een nav en vijf links. Het belangrijkste is dat ik er aria-current="page" bij heb gezet. Daardoor weet een schermlezer welke pagina actief is. In de CSS heb ik daar een streepje onder gezet, zodat je ook als gewone gebruiker ziet op welke pagina je bent. Aria-current en states zoals :hover en :focus-visible komen uit de deep dive Buttons, states en selectors van Vasilis.
 
 De achtergrond
 
@@ -56,7 +56,7 @@ De pop-ups: over mij en de cookie
 
 Op mijn pagina zitten twee pop-ups. Je kunt op mijn naam klikken en op de cookie. Bij mijn naam krijg je onder “Over mij” een stukje over wie ik ben. Bij de cookie krijg je informatie over welke cookies je accepteert. Bij mij zijn dat er niet veel: het gaat om GitHub Pages, waar de site op draait, en de webring van de digitale tuintjes.
 
-Beide pop-ups zijn een dialog. Met commandfor geef je aan welke dialog je gebruikt en met command="show-modal" zeg je dat de knop een modal opent. Zo kun je een pop-up maken zonder JavaScript. Ik heb daarvoor een button gebruikt, omdat je dan op dezelfde pagina blijft. Door html:has(dialog[open]) toe te voegen, scrollt de pagina erachter niet mee. Dat heb ik geleerd in de deep dives Buttons + Dialogs en Position + Dialogs van Sanne.
+Beide pop-ups zijn een dialog. Met commandfor geef je aan welke dialog je gebruikt en met command="show-modal" zeg je dat de knop een modal opent. Zo kun je een pop-up maken zonder JavaScript. Ik heb daarvoor een button gebruikt, omdat je dan op dezelfde pagina blijft. Dat heb ik geleerd in de deep dives Buttons + Dialogs en Position + Dialogs van Sanne.
 
 Light- en darkmode
 
