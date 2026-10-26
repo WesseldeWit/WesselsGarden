@@ -56,8 +56,6 @@ Leuk/verrassend: ik vond het effect waarbij de producten een draai van 360 grade
 
 Meest webby en waarom: ik denk dat ik die van het upfront het meest webby vind, omdat daar meer gebeurt dan op de site van Adidas. 
 
-#### Presentatie 
-
 
 #### Wo: WS 2
 
@@ -458,6 +456,8 @@ Daarnaast moet ik het proces van het bouwen van de website nog helemaal in de RE
 
 #### Wo: Hiërarchie en Grid
 
+In deze workshop ging het over hiërarchie en grid. Met grootte, dikte en letterafstand laat je zien welke woorden het belangrijkst zijn. Met grid zet je ze precies op een plek. Ik heb de woorden van mijn songtekst in een boog gezet met grid-column en grid-row. 
+
 ![songtekst Let it happen in een grid](assets/img/songtekst-grid.png)
 
 ![HTML songtekst met grid](assets/img/songtekst-html-grid.png)
@@ -466,7 +466,11 @@ Daarnaast moet ik het proces van het bouwen van de website nog helemaal in de RE
 
 #### Vr: Variable fonts
 
+Op mijn songtekstpagina gebruik ik het font Seraphs. Dat is een variabel font, dus je kunt de vorm van de letters zelf aanpassen. Couplet 1 is strak, het refrein heeft voetjes en couplet 2 is rond. In de titel verandert de vorm langzaam, alsof hij loslaat. Dat heb ik uit de deep dive Variabele fonts van Sanne.
+
 #### Animatie
+
+Ik heb hierbij in mijn songtekst gewoon allemaal probeersels gemaakt met verschillende animaties. Hierbij wist ik dat het een opzetje zou zijn en dat ik later nog een echte versie hiervan zou maken. 
 
 ![schetsen van animaties voor mijn songtekst](assets/img/animatie-schetsen.jpg)
 
@@ -500,6 +504,8 @@ Schetsen: Wat ik heb geprobeerd in de schetsen, is kijken naar wat voor dingen i
 
 Resultaat: Waar ik voor gegaan is het creeeren van een rustige maar wel een beetje spacende pagina. De reden hiervoor is omdat ikzelf dat gevoel krijg bij het nummer en ik dat wilde overbrengen naar de kijker op mijn website. Ik heb hierbij veel inspiratie gehaal duit de cover van het album. De kleuren die hierin zijn gebruikt heb ik overgenomen en daarmee de woorden en achtergrond van mijn website gestyled. Bij het animeren van de woorden en tekst heb ik er voor gekozen om alles rustig te houden. Rustige bewegingen wat goed het idee vanm de song overbrengt. 
 
+Ik wilde dat de tekst niet gewoon in een rijtje stond. Daarom staan de coupletten links en het refrein rechts in een grid van 12 kolommen. Dat heb ik uit de deep dive Interessantere layouts van Vasilis. Op mijn songtekstpagina gebruik ik het font Seraphs. Dat is een variabel font, dus je kunt de vorm van de letters zelf aanpassen. Couplet 1 is strak, het refrein heeft voetjes en couplet 2 is rond. In de titel verandert de vorm langzaam, alsof hij loslaat. Dat heb ik uit de deep dive Variabele fonts van Sanne.
+
 ![songtekst versie 2](assets/img/songtekst-versie-2.png)
 
 #### Retrospect 3
@@ -515,6 +521,8 @@ Het idee
 Eerst was het belangrijk om schetsen te maken van hoe ik wilde dat de homepagina eruit zou zien. Het is jouw digitale tuintje, dus het moest echt van jou zijn. Om het persoonlijk te maken, wilde ik iets doen met mijn paraaf, een soort logo dat ik zelf heb gemaakt. Dat kreeg ik ook als feedback. Die paraaf wilde ik centraal hebben, met daaromheen allemaal schetsen, zoals te zien is op mijn wireframes.
 
 In mijn schetsboek heb ik verschillende versies uitgeprobeerd van hoe de homepagina eruit kon zien. Ik heb vooral gespeeld met mijn naam: soms Jan Wessel, soms Jan Wessel Cornelis, soms Wessel de Wit, en soms alleen mijn paraaf groot in het midden. In een paar schetsen stond er ook een foto met een stukje tekst bij, en in een andere versie had ik de trap als een soort digitaal tuintje met het menu ernaast. Wat ik bij al die versies het belangrijkste vond, is dat de site echt bij mij zou passen. Daarom wilde ik er zelfgemaakte schetsjes in stoppen. Zo voelt het niet als zomaar een website, maar als iets wat echt van mij is.
+
+Om snel verschillende ideeën op papier te zetten, heb ik eerst kleine schetsjes gemaakt en er aantekeningen bij geschreven. Dat heb ik uit de deep dive Schetsen van Charley.
 
 ![schetsen homepagina, varianten met mijn naam en paraaf](assets/img/schetsen-homepagina-1.jpg)
 
@@ -540,11 +548,13 @@ In de header staat linksboven mijn paraaf. Rechts stond in eerste instantie de n
 
 Het menu heb ik gemaakt met een nav en vijf links. Het belangrijkste is dat ik er aria-current="page" bij heb gezet. Daardoor weet een schermlezer welke pagina actief is. In de CSS heb ik daar een streepje onder gezet, zodat je ook als gewone gebruiker ziet op welke pagina je bent. Aria-current en states zoals :hover en :focus-visible komen uit de deep dive Buttons, states en selectors van Vasilis.
 
+Als je met je muis over een icoontje gaat, wordt het een klein beetje groter. Zo zie je dat je erop kunt klikken. Dat heet een micro-interactie. Dat heb ik uit de deep dive Interactie van Nicky.
+
 De achtergrond
 
 Ik wilde de tekening van de Brouwersgracht in zijn geheel op mijn website laten zien. Maar die is veel te lang, dus daar moest ik iets op bedenken.
 
-De achtergrond staat alleen in de main. Met de margin en de flexbox zorg ik ervoor dat hij daar niet buiten komt. Met background-size: cover vult hij de hele main. Daardoor is hij niet helemaal zichtbaar, dus het moest een soort animatie worden, waarbij je automatisch door de tekening heen gaat zonder dat je zelf scrollt. Dat heb ik gedaan met een keyframe-animatie, wat ik heb geleerd in de deep dive CSS animaties van Sanne.
+De achtergrond staat alleen in de main. Met de margin en de flexbox zorg ik ervoor dat hij daar niet buiten komt. Met background-size: cover vult hij de hele main. Over de tekening heb ik een lichte waas gelegd met een linear-gradient. Daardoor blijft mijn naam goed leesbaar en wordt het niet te druk. Dat heb ik uit de deep dive Mooie kleuren en gradients van Sanne. Daardoor is hij niet helemaal zichtbaar, dus het moest een soort animatie worden, waarbij je automatisch door de tekening heen gaat zonder dat je zelf scrollt. Dat heb ik gedaan met een keyframe-animatie, wat ik heb geleerd in de deep dive CSS animaties van Sanne.
 
 Dit gebeurt alleen op een groot scherm, omdat het daar in de breedte staat. Wanneer je het scherm kleiner maakt, zie je op je telefoon uiteindelijk wel de hele tekening.
 
@@ -570,7 +580,7 @@ Bij de woordentrap had ik twee versies van mijn icoontjes gemaakt: een witte en 
 
 Alle kleuren die moeten wisselen, heb ik als variabelen in de CSS gezet. Wanneer de lamp het kleurenschema op donker zet, wisselen alle kleuren in één keer, overal waar ik die variabelen heb gebruikt. Ik hoef dus niet voor elk onderdeel aparte code te schrijven. Dat scheelt een stuk.
 
-De lamp staat met position: fixed helemaal rechts in het scherm. Met clamp wordt hij groter en kleiner met het scherm mee. Het is een lamp, dus je moet ook zien dat het een lamp is. Bij hover zie je daarom dat het een knop is waar je op kunt klikken, en gaat de lamp een beetje aan door een gele gloed. In de darkmode is dat een blauwe gloed, voor een rookachtig effect, alsof de kaars in de lantaarn net is uitgegaan.
+De lamp staat met position: fixed helemaal rechts in het scherm. Met clamp wordt hij groter en kleiner met het scherm mee. Het is een lamp, dus je moet ook zien dat het een lamp is. Bij hover zie je daarom dat het een knop is waar je op kunt klikken, en gaat de lamp een beetje aan door een gele gloed. In de darkmode is dat een blauwe gloed, voor een rookachtig effect, alsof de kaars in de lantaarn net is uitgegaan. Die gloed heb ik gemaakt met filter: drop-shadow. Dat heb ik uit de deep dive CSS: fonts met kleur en effecten van Sanne.
 
 Het enige nadeel van deze manier is dat de modus niet meegaat met de dark- of lightmode-instelling van iemands computer of telefoon. Je kunt het alleen op de website zelf aanpassen. Ik wilde het wel in dezelfde stijl houden als de rest van mijn website, daarom heb ik voor deze keuze gekozen. Het overgrote deel heb ik uit de deep dives gehaald, maar ik wilde er wel mijn eigen swing aan geven.
 
@@ -590,6 +600,8 @@ Op de sportpagina laat ik de vier sporten zien die ik wekelijks doe: hockey, har
 
 De kaarten staan in een lijst, omdat het eigenlijk een rijtje sporten is. Met grid staan ze op een telefoon onder elkaar en op een groot scherm twee naast elkaar. In de kaart zelf staat de foto links en de tekst rechts. Bij hover komt de kaart een stukje omhoog met een schaduw, zodat zichtbaar is dat je erop kunt klikken.
 
+Op de pagina van elke sport staat de foto links over twee rijen en de terugknop onderaan over de hele breedte. Dat heb ik gedaan met grid-row en grid-column. Op een telefoon komt alles onder elkaar. Dat heb ik uit de deep dive Responsive grid van Vasilis.
+
 Elke sport heeft een eigen kleur. Die heb ik uit de foto zelf gehaald, waardoor het goed matcht. Voor hockey wilde ik in eerste instantie de kleur gebruiken van het Terriërs-shirt, maar het felle geel in combinatie met witte letters kon ik niet gebruiken, omdat het bij de contrastcheck zeer laag scoorde. Daarom heb ik een donkerdere kleur geel gekozen en heb ik in plaats van een witte kleur voor de tekst een zwarte kleur gekozen. Hierdoor is het contrast beter en is het beter leesbaar voor mensen die kleurenblind of slechtziend zijn.
 
 Testen
@@ -598,7 +610,7 @@ Om te kijken of mijn site echt voor iedereen werkt, heb ik hem getest. Mijn HTML
 
 Belangrijkste keuzes en waarom
 
-Voor het font ben ik op zoek gegaan naar een duidelijk lettertype. Ik heb uiteindelijk twee fonts gekozen: één voor de belangrijkste woorden en één voor de minder belangrijke woorden.
+Voor het font ben ik op zoek gegaan naar een duidelijk lettertype. Ik heb uiteindelijk drie fonts gekozen: Bebas Neue voor de titels, Oswald voor de gewone tekst en Space Grotesk voor de kleine teksten, zoals in de footer en de pop-ups. Dat je elk font een eigen rol geeft, heb ik uit de deep dive Typografie van Diederik.
 
 Daarnaast heb ik mijn eigen logo gebruikt. Dat had ik al eerder gemaakt: ik gebruik het ook bij mijn portfolio en als handtekening onder mijn schilderijen. Ik vond het leuk om dat terug te laten komen op mijn digital garden.
 

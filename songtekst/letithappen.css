@@ -92,14 +92,14 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   text-shadow: 0 0 0.4em var(--licht-paars);
-  animation: loslaten 10s ease-in-out infinite alternate;
+  animation: vervorming 10s ease-in-out infinite alternate;
 
   @media (prefers-reduced-motion: reduce) {
     animation: none;
   }
 }
 
-@keyframes loslaten {
+@keyframes vervorming {
   from {
     letter-spacing: 0.15em;
     font-variation-settings: "SRFS" 0;
@@ -227,14 +227,14 @@ i {
 }
 
 .golf {
-  animation: deinen 6s ease-in-out infinite;
+  animation: golven 6s ease-in-out infinite;
 
   @media (prefers-reduced-motion: reduce) {
     animation: none;
   }
 }
 
-@keyframes deinen {
+@keyframes golven {
   0%,
   100% {
     translate: 0;
