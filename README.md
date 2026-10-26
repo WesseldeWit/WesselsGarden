@@ -586,13 +586,7 @@ Daarnaast moet ik het proces van het bouwen van de website nog helemaal in de RE
 
 ##### Versie 1
 
-Schetsen:
-
-![schetsen song 1](assets/img/songschetsen-1.jpg)
-
-![schetsen song 2](assets/img/songschetsen-2.jpg)
-
-![schetsen song 3](assets/img/songschetsen-3.jpg)
+Schetsen: zie Song en schetsen hierboven.
 
 Code:
 
