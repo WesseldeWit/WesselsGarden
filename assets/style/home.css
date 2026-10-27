@@ -172,6 +172,7 @@ header label img {
   height: clamp(3rem, 16vw, 12rem);
   transition: transform 0.2s ease, filter 0.2s ease;
   filter: drop-shadow(0 0 0.75rem var(--lamp-gloed));
+  
 }
 
 header label img:last-of-type {
@@ -811,4 +812,91 @@ main > section > ul > li img {
 .schilderij-4 > figure img {
   max-height: 46rem;
   object-fit: contain;
+}
+
+/* MARK: schetsjes per pagina
+*/
+
+main {
+  position: relative;
+}
+
+.schets-hockeystick {
+  display: none;
+  position: absolute;
+  left: 2.75rem;
+  top: 20rem;
+  z-index: 15;
+  width: 12vw;
+
+  @media (width > 64em) {
+    display: block;
+  }
+}
+
+.schets-schoen {
+  display: none;
+  position: absolute;
+  right: 2.75rem;
+  top: 18rem;
+  z-index: 15;
+  width: 12vw;
+
+  @media (width > 64em) {
+    display: block;
+  }
+}
+
+.schets-dumbbell {
+  display: none;
+  position: absolute;
+  left: 2.75rem;
+  top: 42rem;
+  z-index: 15;
+  width: 12vw;
+
+  @media (width > 64em) {
+    display: block;
+  }
+}
+
+.schets-golfstick {
+  display: none;
+  position: absolute;
+  right: 3.75rem;
+  top: 38rem;
+  z-index: 15;
+  height: 14vw;
+
+  @media (width > 64em) {
+    display: block;
+  }
+}
+
+.schets-potlood {
+  display: none;
+  position: absolute;
+  left: 3rem;
+  top: 25rem;
+  z-index: 15;
+  width: 14vw;
+  transform: rotate(-8deg);
+
+  @media (width > 64em) {
+    display: block;
+  }
+}
+
+.schets-kwast {
+  display: none;
+  position: absolute;
+  right: 2.25rem;
+  top: 30rem;
+  z-index: 15;
+  width: 15vw;
+  transform: rotate(-22deg);
+
+  @media (width > 64em) {
+    display: block;
+  }
 }

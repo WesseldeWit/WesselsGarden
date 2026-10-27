@@ -338,14 +338,14 @@ i {
   font-size: 1.3em;
   letter-spacing: 0.2em;
   color: var(--roze);
-  animation: zonsopgang 8s ease-in-out infinite alternate;
+  animation: overgang 8s ease-in-out infinite alternate;
 
   @media (prefers-reduced-motion: reduce) {
     animation: none;
   }
 }
 
-@keyframes zonsopgang {
+@keyframes overgang {
   from {
     color: var(--roze);
     text-shadow: 0 0 0 var(--oranje);
